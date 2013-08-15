@@ -1,0 +1,222 @@
+<?xml version='1.0' encoding='Windows-1252'?>
+<ToolSet Mode="Turning" Current="1">
+	<List Name="" Current="3" PreAxial="false" WorkpieceColoring="false">
+		<Position T="1" OperationTime="0" Color="FF8080">
+			<Norm Name="VDI30A"/>
+			<Norm Name="VDI30A-Mill"/>
+			<Tool Norm="VDI30A" Type="Corner Tool Left" Name="VBMW 160404_SVJBL 2020 H 16_B1-30 2022"/>
+		</Position>
+		<Position T="2" OperationTime="0" Color="80FF80">
+			<Norm Name="VDI30A"/>
+			<Norm Name="VDI30A-Mill"/>
+			<Tool Norm="VDI30A" Type="Corner Tool Left" Name="VBMW 160404_SVJBL 2020 H 16_B1-30 2022"/>
+		</Position>
+		<Position T="3" OperationTime="0">
+			<Norm Name="VDI30A"/>
+			<Norm Name="VDI30A-Mill"/>
+			<Tool Norm="VDI30A" Type="Recessing Tool" Name="SE-2.20-0700-015NR_EFS-2.20-2020-K22L_B5-30 2022"/>
+		</Position>
+		<Position T="4" OperationTime="0">
+			<Norm Name="VDI30A"/>
+			<Norm Name="VDI30A-Mill"/>
+		</Position>
+		<Position T="5" OperationTime="0" Color="0000FF" CurrCorrVal="5">
+			<Norm Name="VDI30A"/>
+			<Norm Name="VDI30A-Mill"/>
+			<Tool Norm="VDI30A-Mill" Type="Spotting Drill-G19" Name="NCABO-90 8x25(140) R_RWK-30ER 25x63"/>
+		</Position>
+		<Position T="6" OperationTime="0">
+			<Norm Name="VDI30A"/>
+			<Norm Name="VDI30A-Mill"/>
+		</Position>
+		<Position T="7" OperationTime="0" Color="00FF00" CurrCorrVal="7">
+			<Norm Name="VDI30A"/>
+			<Norm Name="VDI30A-Mill"/>
+			<Tool Norm="VDI30A-Mill" Type="Twist Drill HSS L-G19" Name="SPIBO HSS-l 6.8x102156) R_RWK-30ER 25x63"/>
+		</Position>
+		<Position T="8" OperationTime="0">
+			<Norm Name="VDI30A"/>
+			<Norm Name="VDI30A-Mill"/>
+		</Position>
+		<Position T="9" OperationTime="0">
+			<Norm Name="VDI30A"/>
+			<Norm Name="VDI30A-Mill"/>
+			<Tool Norm="VDI30A" Type="Threading Tool Left" Name="M60E-1.50-16R_E16-2020-KR_B7-30 2022"/>
+		</Position>
+		<Position T="10" OperationTime="0">
+			<Norm Name="VDI30A"/>
+			<Norm Name="VDI30A-Mill"/>
+		</Position>
+		<Position T="11" OperationTime="0" Color="FF0080" CurrCorrVal="11">
+			<Norm Name="VDI30A"/>
+			<Norm Name="VDI30A-Mill"/>
+			<Tool Norm="VDI30A-Mill" Type="End Mill Finish HSS L-G19" Name="SLF HSS-l 6x24(68) R_RWK-30ER 25x63"/>
+		</Position>
+		<Position T="12" OperationTime="0">
+			<Norm Name="VDI30A"/>
+			<Norm Name="VDI30A-Mill"/>
+		</Position>
+		<Position T="13" OperationTime="0">
+			<Norm Name="VDI30A"/>
+			<Norm Name="VDI30A-Mill"/>
+		</Position>
+		<Position T="14" OperationTime="0">
+			<Norm Name="VDI30A"/>
+			<Norm Name="VDI30A-Mill"/>
+		</Position>
+		<Position T="15" OperationTime="0">
+			<Norm Name="VDI30A"/>
+			<Norm Name="VDI30A-Mill"/>
+		</Position>
+		<Position T="16" OperationTime="0">
+			<Norm Name="VDI30A"/>
+			<Norm Name="VDI30A-Mill"/>
+		</Position>
+		<CorrVals>
+			<CorrVal D="1" T="1" N="1" Z="47" R="0.4" X="75" I="-0.4" K="-0.4" G="0" E="52" A="3" L="16.178" Q="3"/>
+			<CorrVal D="21" T="1" N="2" Z="0" R="0" X="0" I="0" K="0" G="0" E="0" A="0" L="0" Q="0"/>
+			<CorrVal D="41" T="1" N="3" Z="0" R="0" X="0" I="0" K="0" G="0" E="0" A="0" L="0" Q="0"/>
+			<CorrVal D="61" T="1" N="4" Z="0" R="0" X="0" I="0" K="0" G="0" E="0" A="0" L="0" Q="0"/>
+			<CorrVal D="81" T="1" N="5" Z="0" R="0" X="0" I="0" K="0" G="0" E="0" A="0" L="0" Q="0"/>
+			<CorrVal D="101" T="1" N="6" Z="0" R="0" X="0" I="0" K="0" G="0" E="0" A="0" L="0" Q="0"/>
+			<CorrVal D="121" T="1" N="7" Z="0" R="0" X="0" I="0" K="0" G="0" E="0" A="0" L="0" Q="0"/>
+			<CorrVal D="141" T="1" N="8" Z="0" R="0" X="0" I="0" K="0" G="0" E="0" A="0" L="0" Q="0"/>
+			<CorrVal D="161" T="1" N="9" Z="0" R="0" X="0" I="0" K="0" G="0" E="0" A="0" L="0" Q="0"/>
+			<CorrVal D="2" T="2" N="1" Z="47" R="0.4" X="75" I="-0.4" K="-0.4" G="0" E="52" A="3" L="16.178" Q="3"/>
+			<CorrVal D="22" T="2" N="2" Z="0" R="0" X="0" I="0" K="0" G="0" E="0" A="0" L="0" Q="0"/>
+			<CorrVal D="42" T="2" N="3" Z="0" R="0" X="0" I="0" K="0" G="0" E="0" A="0" L="0" Q="0"/>
+			<CorrVal D="62" T="2" N="4" Z="0" R="0" X="0" I="0" K="0" G="0" E="0" A="0" L="0" Q="0"/>
+			<CorrVal D="82" T="2" N="5" Z="0" R="0" X="0" I="0" K="0" G="0" E="0" A="0" L="0" Q="0"/>
+			<CorrVal D="102" T="2" N="6" Z="0" R="0" X="0" I="0" K="0" G="0" E="0" A="0" L="0" Q="0"/>
+			<CorrVal D="122" T="2" N="7" Z="0" R="0" X="0" I="0" K="0" G="0" E="0" A="0" L="0" Q="0"/>
+			<CorrVal D="142" T="2" N="8" Z="0" R="0" X="0" I="0" K="0" G="0" E="0" A="0" L="0" Q="0"/>
+			<CorrVal D="162" T="2" N="9" Z="0" R="0" X="0" I="0" K="0" G="0" E="0" A="0" L="0" Q="0"/>
+			<CorrVal D="3" T="3" N="1" Z="46.55" R="0.15" X="107" I="-0.15" K="-0.15" G="2.2" E="0" A="0" L="9" Q="3"/>
+			<CorrVal D="23" T="3" N="2" Z="44.35" R="0.15" X="107" I="-0.15" K="0.15" G="2.2" E="0" A="0" L="9" Q="4"/>
+			<CorrVal D="43" T="3" N="3" Z="0" R="0" X="0" I="0" K="0" G="0" E="0" A="0" L="0" Q="0"/>
+			<CorrVal D="63" T="3" N="4" Z="0" R="0" X="0" I="0" K="0" G="0" E="0" A="0" L="0" Q="0"/>
+			<CorrVal D="83" T="3" N="5" Z="0" R="0" X="0" I="0" K="0" G="0" E="0" A="0" L="0" Q="0"/>
+			<CorrVal D="103" T="3" N="6" Z="0" R="0" X="0" I="0" K="0" G="0" E="0" A="0" L="0" Q="0"/>
+			<CorrVal D="123" T="3" N="7" Z="0" R="0" X="0" I="0" K="0" G="0" E="0" A="0" L="0" Q="0"/>
+			<CorrVal D="143" T="3" N="8" Z="0" R="0" X="0" I="0" K="0" G="0" E="0" A="0" L="0" Q="0"/>
+			<CorrVal D="163" T="3" N="9" Z="0" R="0" X="0" I="0" K="0" G="0" E="0" A="0" L="0" Q="0"/>
+			<CorrVal D="4" T="4" N="1" Z="0" R="0" X="0" I="0" K="0" G="0" E="0" A="0" L="0" Q="0"/>
+			<CorrVal D="24" T="4" N="2" Z="0" R="0" X="0" I="0" K="0" G="0" E="0" A="0" L="0" Q="0"/>
+			<CorrVal D="44" T="4" N="3" Z="0" R="0" X="0" I="0" K="0" G="0" E="0" A="0" L="0" Q="0"/>
+			<CorrVal D="64" T="4" N="4" Z="0" R="0" X="0" I="0" K="0" G="0" E="0" A="0" L="0" Q="0"/>
+			<CorrVal D="84" T="4" N="5" Z="0" R="0" X="0" I="0" K="0" G="0" E="0" A="0" L="0" Q="0"/>
+			<CorrVal D="104" T="4" N="6" Z="0" R="0" X="0" I="0" K="0" G="0" E="0" A="0" L="0" Q="0"/>
+			<CorrVal D="124" T="4" N="7" Z="0" R="0" X="0" I="0" K="0" G="0" E="0" A="0" L="0" Q="0"/>
+			<CorrVal D="144" T="4" N="8" Z="0" R="0" X="0" I="0" K="0" G="0" E="0" A="0" L="0" Q="0"/>
+			<CorrVal D="164" T="4" N="9" Z="0" R="0" X="0" I="0" K="0" G="0" E="0" A="0" L="0" Q="0"/>
+			<CorrVal D="5" T="5" N="1" Z="63" R="4" X="177.2" I="0" K="0" G="8" E="45" A="45" L="25" Q="8" NZ="2"/>
+			<CorrVal D="25" T="5" N="2" Z="63" R="4" X="177.1" I="0" K="0" G="8" E="45" A="45" L="25" Q="8" NZ="2"/>
+			<CorrVal D="45" T="5" N="3" Z="63" R="4" X="173.2" I="0" K="0" G="8" E="45" A="45" L="25" Q="8" NZ="2"/>
+			<CorrVal D="65" T="5" N="4" Z="0" R="0" X="0" I="0" K="0" G="0" E="0" A="0" L="0" Q="0"/>
+			<CorrVal D="85" T="5" N="5" Z="0" R="0" X="0" I="0" K="0" G="0" E="0" A="0" L="0" Q="0"/>
+			<CorrVal D="105" T="5" N="6" Z="0" R="0" X="0" I="0" K="0" G="0" E="0" A="0" L="0" Q="0"/>
+			<CorrVal D="125" T="5" N="7" Z="0" R="0" X="0" I="0" K="0" G="0" E="0" A="0" L="0" Q="0"/>
+			<CorrVal D="145" T="5" N="8" Z="0" R="0" X="0" I="0" K="0" G="0" E="0" A="0" L="0" Q="0"/>
+			<CorrVal D="165" T="5" N="9" Z="0" R="0" X="0" I="0" K="0" G="0" E="0" A="0" L="0" Q="0"/>
+			<CorrVal D="6" T="6" N="1" Z="0" R="0" X="0" I="0" K="0" G="0" E="0" A="0" L="0" Q="0"/>
+			<CorrVal D="26" T="6" N="2" Z="0" R="0" X="0" I="0" K="0" G="0" E="0" A="0" L="0" Q="0"/>
+			<CorrVal D="46" T="6" N="3" Z="0" R="0" X="0" I="0" K="0" G="0" E="0" A="0" L="0" Q="0"/>
+			<CorrVal D="66" T="6" N="4" Z="0" R="0" X="0" I="0" K="0" G="0" E="0" A="0" L="0" Q="0"/>
+			<CorrVal D="86" T="6" N="5" Z="0" R="0" X="0" I="0" K="0" G="0" E="0" A="0" L="0" Q="0"/>
+			<CorrVal D="106" T="6" N="6" Z="0" R="0" X="0" I="0" K="0" G="0" E="0" A="0" L="0" Q="0"/>
+			<CorrVal D="126" T="6" N="7" Z="0" R="0" X="0" I="0" K="0" G="0" E="0" A="0" L="0" Q="0"/>
+			<CorrVal D="146" T="6" N="8" Z="0" R="0" X="0" I="0" K="0" G="0" E="0" A="0" L="0" Q="0"/>
+			<CorrVal D="166" T="6" N="9" Z="0" R="0" X="0" I="0" K="0" G="0" E="0" A="0" L="0" Q="0"/>
+			<CorrVal D="7" T="7" N="1" Z="63" R="3.4" X="177" I="0" K="0" G="6.8" E="31" A="31" L="102" Q="8"/>
+			<CorrVal D="27" T="7" N="2" Z="63" R="3.4" X="175.008147" I="0" K="0" G="6.8" E="31" A="31" L="102" Q="8"/>
+			<CorrVal D="47" T="7" N="3" Z="63" R="3.4" X="177.051073" I="0" K="0" G="6.8" E="31" A="31" L="102" Q="8"/>
+			<CorrVal D="67" T="7" N="4" Z="0" R="0" X="0" I="0" K="0" G="0" E="0" A="0" L="0" Q="0"/>
+			<CorrVal D="87" T="7" N="5" Z="0" R="0" X="0" I="0" K="0" G="0" E="0" A="0" L="0" Q="0"/>
+			<CorrVal D="107" T="7" N="6" Z="0" R="0" X="0" I="0" K="0" G="0" E="0" A="0" L="0" Q="0"/>
+			<CorrVal D="127" T="7" N="7" Z="0" R="0" X="0" I="0" K="0" G="0" E="0" A="0" L="0" Q="0"/>
+			<CorrVal D="147" T="7" N="8" Z="0" R="0" X="0" I="0" K="0" G="0" E="0" A="0" L="0" Q="0"/>
+			<CorrVal D="167" T="7" N="9" Z="0" R="0" X="0" I="0" K="0" G="0" E="0" A="0" L="0" Q="0"/>
+			<CorrVal D="8" T="8" N="1" Z="0" R="0" X="0" I="0" K="0" G="0" E="0" A="0" L="0" Q="0"/>
+			<CorrVal D="28" T="8" N="2" Z="0" R="0" X="0" I="0" K="0" G="0" E="0" A="0" L="0" Q="0"/>
+			<CorrVal D="48" T="8" N="3" Z="0" R="0" X="0" I="0" K="0" G="0" E="0" A="0" L="0" Q="0"/>
+			<CorrVal D="68" T="8" N="4" Z="0" R="0" X="0" I="0" K="0" G="0" E="0" A="0" L="0" Q="0"/>
+			<CorrVal D="88" T="8" N="5" Z="0" R="0" X="0" I="0" K="0" G="0" E="0" A="0" L="0" Q="0"/>
+			<CorrVal D="108" T="8" N="6" Z="0" R="0" X="0" I="0" K="0" G="0" E="0" A="0" L="0" Q="0"/>
+			<CorrVal D="128" T="8" N="7" Z="0" R="0" X="0" I="0" K="0" G="0" E="0" A="0" L="0" Q="0"/>
+			<CorrVal D="148" T="8" N="8" Z="0" R="0" X="0" I="0" K="0" G="0" E="0" A="0" L="0" Q="0"/>
+			<CorrVal D="168" T="8" N="9" Z="0" R="0" X="0" I="0" K="0" G="0" E="0" A="0" L="0" Q="0"/>
+			<CorrVal D="9" T="9" N="1" Z="48.001" R="0.216" X="95" I="-0.216" K="0" G="0" E="0" A="0" L="0" Q="8"/>
+			<CorrVal D="29" T="9" N="2" Z="47.001" R="0" X="95" I="-0.213" K="0.001" G="0" E="0" A="0" L="0" Q="8"/>
+			<CorrVal D="49" T="9" N="3" Z="0" R="0" X="0" I="0" K="0" G="0" E="0" A="0" L="0" Q="0"/>
+			<CorrVal D="69" T="9" N="4" Z="0" R="0" X="0" I="0" K="0" G="0" E="0" A="0" L="0" Q="0"/>
+			<CorrVal D="89" T="9" N="5" Z="0" R="0" X="0" I="0" K="0" G="0" E="0" A="0" L="0" Q="0"/>
+			<CorrVal D="109" T="9" N="6" Z="0" R="0" X="0" I="0" K="0" G="0" E="0" A="0" L="0" Q="0"/>
+			<CorrVal D="129" T="9" N="7" Z="0" R="0" X="0" I="0" K="0" G="0" E="0" A="0" L="0" Q="0"/>
+			<CorrVal D="149" T="9" N="8" Z="0" R="0" X="0" I="0" K="0" G="0" E="0" A="0" L="0" Q="0"/>
+			<CorrVal D="169" T="9" N="9" Z="0" R="0" X="0" I="0" K="0" G="0" E="0" A="0" L="0" Q="0"/>
+			<CorrVal D="10" T="10" N="1" Z="0" R="0" X="0" I="0" K="0" G="0" E="0" A="0" L="0" Q="0"/>
+			<CorrVal D="30" T="10" N="2" Z="0" R="0" X="0" I="0" K="0" G="0" E="0" A="0" L="0" Q="0"/>
+			<CorrVal D="50" T="10" N="3" Z="0" R="0" X="0" I="0" K="0" G="0" E="0" A="0" L="0" Q="0"/>
+			<CorrVal D="70" T="10" N="4" Z="0" R="0" X="0" I="0" K="0" G="0" E="0" A="0" L="0" Q="0"/>
+			<CorrVal D="90" T="10" N="5" Z="0" R="0" X="0" I="0" K="0" G="0" E="0" A="0" L="0" Q="0"/>
+			<CorrVal D="110" T="10" N="6" Z="0" R="0" X="0" I="0" K="0" G="0" E="0" A="0" L="0" Q="0"/>
+			<CorrVal D="130" T="10" N="7" Z="0" R="0" X="0" I="0" K="0" G="0" E="0" A="0" L="0" Q="0"/>
+			<CorrVal D="150" T="10" N="8" Z="0" R="0" X="0" I="0" K="0" G="0" E="0" A="0" L="0" Q="0"/>
+			<CorrVal D="170" T="10" N="9" Z="0" R="0" X="0" I="0" K="0" G="0" E="0" A="0" L="0" Q="0"/>
+			<CorrVal D="11" T="11" N="1" Z="63" R="3" X="105.1" I="0" K="0" G="6" E="0" A="0" L="24" Q="8" NZ="3"/>
+			<CorrVal D="31" T="11" N="2" Z="0" R="0" X="0" I="0" K="0" G="0" E="0" A="0" L="0" Q="0"/>
+			<CorrVal D="51" T="11" N="3" Z="0" R="0" X="0" I="0" K="0" G="0" E="0" A="0" L="0" Q="0"/>
+			<CorrVal D="71" T="11" N="4" Z="0" R="0" X="0" I="0" K="0" G="0" E="0" A="0" L="0" Q="0"/>
+			<CorrVal D="91" T="11" N="5" Z="0" R="0" X="0" I="0" K="0" G="0" E="0" A="0" L="0" Q="0"/>
+			<CorrVal D="111" T="11" N="6" Z="0" R="0" X="0" I="0" K="0" G="0" E="0" A="0" L="0" Q="0"/>
+			<CorrVal D="131" T="11" N="7" Z="0" R="0" X="0" I="0" K="0" G="0" E="0" A="0" L="0" Q="0"/>
+			<CorrVal D="151" T="11" N="8" Z="0" R="0" X="0" I="0" K="0" G="0" E="0" A="0" L="0" Q="0"/>
+			<CorrVal D="171" T="11" N="9" Z="0" R="0" X="0" I="0" K="0" G="0" E="0" A="0" L="0" Q="0"/>
+			<CorrVal D="12" T="12" N="1" Z="0" R="0" X="0" I="0" K="0" G="0" E="0" A="0" L="0" Q="0"/>
+			<CorrVal D="32" T="12" N="2" Z="0" R="0" X="0" I="0" K="0" G="0" E="0" A="0" L="0" Q="0"/>
+			<CorrVal D="52" T="12" N="3" Z="0" R="0" X="0" I="0" K="0" G="0" E="0" A="0" L="0" Q="0"/>
+			<CorrVal D="72" T="12" N="4" Z="0" R="0" X="0" I="0" K="0" G="0" E="0" A="0" L="0" Q="0"/>
+			<CorrVal D="92" T="12" N="5" Z="0" R="0" X="0" I="0" K="0" G="0" E="0" A="0" L="0" Q="0"/>
+			<CorrVal D="112" T="12" N="6" Z="0" R="0" X="0" I="0" K="0" G="0" E="0" A="0" L="0" Q="0"/>
+			<CorrVal D="132" T="12" N="7" Z="0" R="0" X="0" I="0" K="0" G="0" E="0" A="0" L="0" Q="0"/>
+			<CorrVal D="152" T="12" N="8" Z="0" R="0" X="0" I="0" K="0" G="0" E="0" A="0" L="0" Q="0"/>
+			<CorrVal D="172" T="12" N="9" Z="0" R="0" X="0" I="0" K="0" G="0" E="0" A="0" L="0" Q="0"/>
+			<CorrVal D="13" T="13" N="1" Z="0" R="0" X="0" I="0" K="0" G="0" E="0" A="0" L="0" Q="0"/>
+			<CorrVal D="33" T="13" N="2" Z="0" R="0" X="0" I="0" K="0" G="0" E="0" A="0" L="0" Q="0"/>
+			<CorrVal D="53" T="13" N="3" Z="0" R="0" X="0" I="0" K="0" G="0" E="0" A="0" L="0" Q="0"/>
+			<CorrVal D="73" T="13" N="4" Z="0" R="0" X="0" I="0" K="0" G="0" E="0" A="0" L="0" Q="0"/>
+			<CorrVal D="93" T="13" N="5" Z="0" R="0" X="0" I="0" K="0" G="0" E="0" A="0" L="0" Q="0"/>
+			<CorrVal D="113" T="13" N="6" Z="0" R="0" X="0" I="0" K="0" G="0" E="0" A="0" L="0" Q="0"/>
+			<CorrVal D="133" T="13" N="7" Z="0" R="0" X="0" I="0" K="0" G="0" E="0" A="0" L="0" Q="0"/>
+			<CorrVal D="153" T="13" N="8" Z="0" R="0" X="0" I="0" K="0" G="0" E="0" A="0" L="0" Q="0"/>
+			<CorrVal D="173" T="13" N="9" Z="0" R="0" X="0" I="0" K="0" G="0" E="0" A="0" L="0" Q="0"/>
+			<CorrVal D="14" T="14" N="1" Z="0" R="0" X="0" I="0" K="0" G="0" E="0" A="0" L="0" Q="0"/>
+			<CorrVal D="34" T="14" N="2" Z="0" R="0" X="0" I="0" K="0" G="0" E="0" A="0" L="0" Q="0"/>
+			<CorrVal D="54" T="14" N="3" Z="0" R="0" X="0" I="0" K="0" G="0" E="0" A="0" L="0" Q="0"/>
+			<CorrVal D="74" T="14" N="4" Z="0" R="0" X="0" I="0" K="0" G="0" E="0" A="0" L="0" Q="0"/>
+			<CorrVal D="94" T="14" N="5" Z="0" R="0" X="0" I="0" K="0" G="0" E="0" A="0" L="0" Q="0"/>
+			<CorrVal D="114" T="14" N="6" Z="0" R="0" X="0" I="0" K="0" G="0" E="0" A="0" L="0" Q="0"/>
+			<CorrVal D="134" T="14" N="7" Z="0" R="0" X="0" I="0" K="0" G="0" E="0" A="0" L="0" Q="0"/>
+			<CorrVal D="154" T="14" N="8" Z="0" R="0" X="0" I="0" K="0" G="0" E="0" A="0" L="0" Q="0"/>
+			<CorrVal D="174" T="14" N="9" Z="0" R="0" X="0" I="0" K="0" G="0" E="0" A="0" L="0" Q="0"/>
+			<CorrVal D="15" T="15" N="1" Z="0" R="0" X="0" I="0" K="0" G="0" E="0" A="0" L="0" Q="0"/>
+			<CorrVal D="35" T="15" N="2" Z="0" R="0" X="0" I="0" K="0" G="0" E="0" A="0" L="0" Q="0"/>
+			<CorrVal D="55" T="15" N="3" Z="0" R="0" X="0" I="0" K="0" G="0" E="0" A="0" L="0" Q="0"/>
+			<CorrVal D="75" T="15" N="4" Z="0" R="0" X="0" I="0" K="0" G="0" E="0" A="0" L="0" Q="0"/>
+			<CorrVal D="95" T="15" N="5" Z="0" R="0" X="0" I="0" K="0" G="0" E="0" A="0" L="0" Q="0"/>
+			<CorrVal D="115" T="15" N="6" Z="0" R="0" X="0" I="0" K="0" G="0" E="0" A="0" L="0" Q="0"/>
+			<CorrVal D="135" T="15" N="7" Z="0" R="0" X="0" I="0" K="0" G="0" E="0" A="0" L="0" Q="0"/>
+			<CorrVal D="155" T="15" N="8" Z="0" R="0" X="0" I="0" K="0" G="0" E="0" A="0" L="0" Q="0"/>
+			<CorrVal D="175" T="15" N="9" Z="0" R="0" X="0" I="0" K="0" G="0" E="0" A="0" L="0" Q="0"/>
+			<CorrVal D="16" T="16" N="1" Z="0" R="0" X="0" I="0" K="0" G="0" E="0" A="0" L="0" Q="0"/>
+			<CorrVal D="36" T="16" N="2" Z="0" R="0" X="0" I="0" K="0" G="0" E="0" A="0" L="0" Q="0"/>
+			<CorrVal D="56" T="16" N="3" Z="0" R="0" X="0" I="0" K="0" G="0" E="0" A="0" L="0" Q="0"/>
+			<CorrVal D="76" T="16" N="4" Z="0" R="0" X="0" I="0" K="0" G="0" E="0" A="0" L="0" Q="0"/>
+			<CorrVal D="96" T="16" N="5" Z="0" R="0" X="0" I="0" K="0" G="0" E="0" A="0" L="0" Q="0"/>
+			<CorrVal D="116" T="16" N="6" Z="0" R="0" X="0" I="0" K="0" G="0" E="0" A="0" L="0" Q="0"/>
+			<CorrVal D="136" T="16" N="7" Z="0" R="0" X="0" I="0" K="0" G="0" E="0" A="0" L="0" Q="0"/>
+			<CorrVal D="156" T="16" N="8" Z="0" R="0" X="0" I="0" K="0" G="0" E="0" A="0" L="0" Q="0"/>
+			<CorrVal D="176" T="16" N="9" Z="0" R="0" X="0" I="0" K="0" G="0" E="0" A="0" L="0" Q="0"/>
+		</CorrVals>
+	</List>
+</ToolSet>

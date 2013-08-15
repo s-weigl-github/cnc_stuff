@@ -1,0 +1,412 @@
+<?xml version='1.0' encoding='Windows-1252'?>
+<Workpiece name="MWP_WorkPiece-1" user="200">
+	<WorkpieceMaterial Name="P\Free machine steel\44SMn28">
+		<AppearanceBlank diffuse="818181" ambient="313131" specular="828282" shininess="0.4"/>
+		<AppearanceMachined diffuse="DBDBDB" shader="mts.metal"/>
+	</WorkpieceMaterial>
+	<Boolean3>
+		<Positive_part>
+			<VolRotation>
+				<Boolean2>
+					<Outer_contours>
+						<Contour startpoint="50.75 5.89999580140159" closed="true">
+							<ContourLine endpoint="50.75 9.99999578969791" color="FF00FF"/>
+							<ContourLine endpoint="58.95 9.99999578969791" color="FF00FF"/>
+							<ContourLine endpoint="58.95 5.89999580140159" color="FF00FF"/>
+							<ContourLine endpoint="69 5.89999580140159" color="FF0000"/>
+							<ContourLine endpoint="69 20.491497778055" color="FF8080"/>
+							<ContourLine endpoint="68.4999999952327 20.9914977828222" color="80FF80"/>
+							<ContourLine endpoint="33.4499999952327 20.9914977828222" color="80FF80"/>
+							<ContourLine endpoint="33.3758330201526 20.9486774597946" color="80FF80"/>
+							<ContourArc endpoint="32.9758330201525 20.8414977828222" center="32.9758330201526 21.6414977828222" angle="-30" color="80FF80"/>
+							<ContourLine endpoint="31.7499999952327 20.8414977828222" color="80FF80"/>
+							<ContourArc endpoint="30.9499999952328 21.6414977828227" center="31.7499999952328 21.6414977828222" angle="-90" color="80FF80"/>
+							<ContourLine endpoint="30.9499999952328 26.2249977828222" color="80FF80"/>
+							<ContourLine endpoint="29.4499999952327 27.7249977828222" color="80FF80"/>
+							<ContourLine endpoint="22.1500320826304 27.7249977828222" color="80FF80"/>
+							<ContourLine endpoint="7.65000000128651 27.7249977802492" color="8000FF"/>
+							<ContourArc endpoint="7.4500000012865 27.9249977802492" center="7.65000000128651 27.9249977802492" angle="-90" color="8000FF"/>
+							<ContourLine endpoint="7.4500000012865 37.3249977802491" color="8000FF"/>
+							<ContourArc endpoint="7.65000000128651 37.5249977802491" center="7.65000000128651 37.3249977802491" angle="-90" color="8000FF"/>
+							<ContourLine endpoint="20.9499999952327 37.5249977802491" color="8000FF"/>
+							<ContourLine endpoint="20.9499999952328 47.4999977828222" color="80FF80"/>
+							<ContourLine endpoint="19.4499999952327 48.9999977828222" color="80FF80"/>
+							<ContourLine endpoint="9.39999999523275 48.9999977828222" color="80FF80"/>
+							<ContourArc endpoint="8.99999999523274 49.3999977828222" center="9.39999999523273 49.3999977828222" angle="-90" color="80FF80"/>
+							<ContourLine endpoint="8.99999999523274 49.9999977828222" color="80FF80"/>
+							<ContourLine endpoint="0 50"/>
+							<ContourLine endpoint="0 0"/>
+							<ContourLine endpoint="50.7500000000001 0"/>
+							<ContourLine endpoint="50.75 5.89999580140159" color="FF0000"/>
+						</Contour>
+					</Outer_contours>
+					<Inner_contours/>
+				</Boolean2>
+			</VolRotation>
+		</Positive_part>
+		<Negative_part>
+			<Transform translation="50.75 -22.9 -25" rotation="-1 2.57218121036288 -1 97.5447507">
+				<VolGrooveLine startpoint="0 0 0" endpoint="-36.86995 -33.77287 0">
+					<MillFormFlat radius="5.9" length="53" color="FF0000"/>
+				</VolGrooveLine>
+			</Transform>
+			<Transform translation="50.75 22.9 25" rotation="1 0.388775097241489 1 150.3078608">
+				<Pocket height="53" color="FF0000">
+					<Boolean2>
+						<Outer_contours>
+							<Contour startpoint="-11.1216590915877 -18.1885358657164" closed="true">
+								<ContourLine endpoint="3.98519896099597 -4.3506538866332"/>
+								<ContourArc endpoint="-3.98519896099597 4.3506538866332" center="0 0" angle="180"/>
+								<ContourLine endpoint="-18.069517104351 -8.55058153539914"/>
+								<ContourLine endpoint="-29.5522924912625 3.98519945203679"/>
+								<ContourArc endpoint="-38.2536002645289 -3.98519846995515" center="-33.9029463778957 4.9104081335063e-007" angle="180"/>
+								<ContourLine endpoint="-26.7708248776174 -16.5209794573911"/>
+								<ContourLine endpoint="-40.8551471528028 -29.4222186641801"/>
+								<ContourArc endpoint="-32.8847492308108 -38.1235264374465" center="-36.8699481918068 -33.7728725508133" angle="180"/>
+								<ContourLine endpoint="-17.7778870463967 -24.2856406736066"/>
+								<ContourArc endpoint="-11.1216590915877 -18.1885358657164" center="-17.016510102489 -18.4349736048626" angle="99.8084121"/>
+							</Contour>
+						</Outer_contours>
+						<Inner_contours/>
+					</Boolean2>
+				</Pocket>
+			</Transform>
+			<Transform>
+				<VolGrooveGeneral>
+					<PositionSequence>
+						<Position point="50.75 0 0" orientation="1 0 0"/>
+						<Position point="50.75 -25 0" orientation="1 0 0"/>
+					</PositionSequence>
+					<MillForm>
+						<MillFormFlat radius="5.9" length="53" color="FF0000"/>
+					</MillForm>
+				</VolGrooveGeneral>
+			</Transform>
+			<Transform translation="70 -25 0" rotation="1 -1 1 240">
+				<VolGrooveLine startpoint="0 0 0" endpoint="0 0 -10">
+					<MillFormFlat radius="5.9" length="53" color="FF0000"/>
+				</VolGrooveLine>
+			</Transform>
+			<Transform>
+				<VolGrooveGeneral>
+					<PositionSequence>
+						<Position point="60 -25 0" orientation="1 0 0"/>
+						<Position point="60 -25.13146 -7.1406" orientation="1 0 0"/>
+						<Position point="60 -25.52565 -14.27153" orientation="1 0 0"/>
+						<Position point="60 -26.18205 -21.38311" orientation="1 0 0"/>
+						<Position point="60 -27.09976 -28.46572" orientation="1 0 0"/>
+						<Position point="60 -28.27753 -35.50974" orientation="1 0 0"/>
+						<Position point="60 -29.71379 -42.50564" orientation="1 0 0"/>
+						<Position point="60 -31.40656 -49.44394" orientation="1 0 0"/>
+						<Position point="60 -33.35357 -56.31523" orientation="1 0 0"/>
+						<Position point="60 -35.55218 -63.1102" orientation="1 0 0"/>
+						<Position point="60 -37.9994 -69.81964" orientation="1 0 0"/>
+						<Position point="60 -40.69191 -76.43446" orientation="1 0 0"/>
+						<Position point="60 -43.62608 -82.94569" orientation="1 0 0"/>
+						<Position point="60 -46.79791 -89.34451" orientation="1 0 0"/>
+						<Position point="60 -50.20312 -95.62225" orientation="1 0 0"/>
+						<Position point="60 -53.83709 -101.7704" orientation="1 0 0"/>
+						<Position point="60 -57.6949 -107.78063" orientation="1 0 0"/>
+						<Position point="60 -61.7713 -113.64479" orientation="1 0 0"/>
+						<Position point="60 -66.06079 -119.35493" orientation="1 0 0"/>
+						<Position point="60 -70.55755 -124.90332" orientation="1 0 0"/>
+						<Position point="60 -75.25548 -130.28244" orientation="1 0 0"/>
+						<Position point="60 -80.14822 -135.485" orientation="1 0 0"/>
+						<Position point="60 -85.22914 -140.50394" orientation="1 0 0"/>
+						<Position point="60 -90.49134 -145.33246" orientation="1 0 0"/>
+						<Position point="60 -95.9277 -149.96403" orientation="1 0 0"/>
+						<Position point="60 -101.53086 -154.39236" orientation="1 0 0"/>
+						<Position point="60 -107.29321 -158.61146" orientation="1 0 0"/>
+						<Position point="60 -113.20695 -162.6156" orientation="1 0 0"/>
+						<Position point="60 -119.26407 -166.39935" orientation="1 0 0"/>
+						<Position point="60 -125.45635 -169.9576" orientation="1 0 0"/>
+						<Position point="60 -131.7754 -173.28552" orientation="1 0 0"/>
+						<Position point="60 -138.21267 -176.37859" orientation="1 0 0"/>
+						<Position point="60 -144.75942 -179.23263" orientation="1 0 0"/>
+						<Position point="60 -151.40678 -181.84377" orientation="1 0 0"/>
+						<Position point="60 -158.14575 -184.20847" orientation="1 0 0"/>
+						<Position point="60 -164.96718 -186.32352" orientation="1 0 0"/>
+						<Position point="60 -171.86185 -188.18607" orientation="1 0 0"/>
+						<Position point="60 -178.8204 -189.79357" orientation="1 0 0"/>
+						<Position point="60 -185.8334 -191.14387" orientation="1 0 0"/>
+						<Position point="60 -192.89135 -192.23511" orientation="1 0 0"/>
+						<Position point="60 -199.98468 -193.06584" orientation="1 0 0"/>
+						<Position point="60 -207.10378 -193.63492" orientation="1 0 0"/>
+						<Position point="60 -214.23901 -193.94157" orientation="1 0 0"/>
+						<Position point="60 -221.38068 -193.98539" orientation="1 0 0"/>
+						<Position point="60 -228.51913 -193.76632" orientation="1 0 0"/>
+						<Position point="60 -235.64468 -193.28465" orientation="1 0 0"/>
+						<Position point="60 -242.74767 -192.54103" orientation="1 0 0"/>
+						<Position point="60 -249.81848 -191.53648" orientation="1 0 0"/>
+						<Position point="60 -256.84753 -190.27235" orientation="1 0 0"/>
+						<Position point="60 -263.82528 -188.75035" orientation="1 0 0"/>
+						<Position point="60 -270.74228 -186.97256" orientation="1 0 0"/>
+						<Position point="60 -277.58916 -184.94137" orientation="1 0 0"/>
+						<Position point="60 -284.35664 -182.65955" orientation="1 0 0"/>
+						<Position point="60 -291.03554 -180.13018" orientation="1 0 0"/>
+						<Position point="60 -297.61682 -177.35669" orientation="1 0 0"/>
+						<Position point="60 -304.09155 -174.34285" orientation="1 0 0"/>
+						<Position point="60 -310.45097 -171.09273" orientation="1 0 0"/>
+						<Position point="60 -316.68645 -167.61073" orientation="1 0 0"/>
+						<Position point="60 -322.78954 -163.90159" orientation="1 0 0"/>
+						<Position point="60 -328.75198 -159.97032" orientation="1 0 0"/>
+						<Position point="60 -334.56567 -155.82226" orientation="1 0 0"/>
+						<Position point="60 -340.22274 -151.46302" orientation="1 0 0"/>
+						<Position point="60 -345.71554 -146.89852" orientation="1 0 0"/>
+						<Position point="60 -351.0366 -142.13493" orientation="1 0 0"/>
+						<Position point="60 -356.17872 -137.17871" orientation="1 0 0"/>
+					</PositionSequence>
+					<MillForm>
+						<MillFormFlat radius="5.9" length="53" color="FF0000"/>
+					</MillForm>
+				</VolGrooveGeneral>
+			</Transform>
+			<Transform>
+				<VolGrooveGeneral>
+					<PositionSequence>
+						<Position point="43.75 14.45558 301.15473" orientation="1 0 0.000000001"/>
+						<Position point="43.75 23.29595 299.66464" orientation="1 0 0.000000001"/>
+						<Position point="43.75 32.75508 297.8728" orientation="1 0 0.000000001"/>
+						<Position point="43.75 42.86283 295.71281" orientation="1 0 0.000000001"/>
+						<Position point="43.75 48.16758 294.47126" orientation="1 0 0.000000001"/>
+						<Position point="43.75 53.64257 293.10821" orientation="1 0 0.000000001"/>
+						<Position point="43.75 59.28917 291.61252" orientation="1 0 0.000000001"/>
+						<Position point="43.75 65.10792 289.97244" orientation="1 0 0.000000001"/>
+						<Position point="43.75 71.09836 288.17566" orientation="1 0 0.000000001"/>
+						<Position point="43.75 77.2589 286.20938" orientation="1 0 0.000000001"/>
+						<Position point="43.75 83.58671 284.06035" orientation="1 0 0.000000001"/>
+						<Position point="43.75 90.07748 281.71502" orientation="1 0 0.000000001"/>
+						<Position point="43.75 96.72536 279.15967" orientation="1 0 0.000000001"/>
+						<Position point="43.75 103.52275 276.38054" orientation="1 0 0.000000001"/>
+						<Position point="43.75 110.46022 273.36404" orientation="1 0 0.000000001"/>
+						<Position point="43.75 117.52635 270.09698" orientation="1 0 0.000000001"/>
+						<Position point="43.75 124.70767 266.56683" orientation="1 0 0.000000001"/>
+						<Position point="43.75 131.9886 262.76197" orientation="1 0 0.000000001"/>
+						<Position point="43.75 139.35145 258.672" orientation="1 0 0"/>
+						<Position point="43.75 146.77644 254.28806" orientation="1 0 0"/>
+						<Position point="43.75 154.24183 249.60315" orientation="1 0 0"/>
+						<Position point="43.75 161.72406 244.61242" orientation="1 0 0"/>
+						<Position point="43.75 169.19799 239.31349" orientation="1 0 0"/>
+						<Position point="43.75 176.63719 233.70668" orientation="1 0 0"/>
+						<Position point="43.75 184.0143 227.79525" orientation="1 0 0"/>
+						<Position point="43.75 191.30142 221.58554" orientation="1 0 0"/>
+						<Position point="43.75 198.47059 215.08702" orientation="1 0 0"/>
+						<Position point="43.75 205.49428 208.31232" orientation="1 0 0"/>
+						<Position point="43.75 212.34583 201.27713" orientation="1 0 0"/>
+						<Position point="43.75 219 194" orientation="1 0.000000001 0"/>
+						<Position point="43.75 225.43338 186.50208" orientation="1 0.000000001 0"/>
+						<Position point="43.75 231.62481 178.80678" orientation="1 0.000000001 0"/>
+						<Position point="43.75 237.55576 170.93935" orientation="1 0.000000001 0"/>
+						<Position point="43.75 243.21053 162.92642" orientation="1 0.000000001 0"/>
+						<Position point="43.75 248.5765 154.79556" orientation="1 0.000000001 0"/>
+						<Position point="43.75 253.64417 146.5747" orientation="1 0.000000001 0"/>
+						<Position point="43.75 258.40723 138.29175" orientation="1 0.000000001 0"/>
+						<Position point="43.75 262.86241 129.97407" orientation="1 0.000000001 0"/>
+						<Position point="43.75 267.00939 121.64809" orientation="1 0.000000001 0"/>
+						<Position point="43.75 270.85056 113.33895" orientation="1 0.000000001 0"/>
+						<Position point="43.75 274.39074 105.07021" orientation="1 0.000000001 0"/>
+						<Position point="43.75 277.63697 96.86361" orientation="1 0.000000001 0"/>
+						<Position point="43.75 280.59808 88.73893" orientation="1 0.000000001 0"/>
+						<Position point="43.75 283.28448 80.71386" orientation="1 0.000000001 0"/>
+						<Position point="43.75 285.70778 72.80398" orientation="1 0.000000001 0"/>
+						<Position point="43.75 287.88053 65.02276" orientation="1 0.000000001 0"/>
+						<Position point="43.75 289.81592 57.38161" orientation="1 0.000000001 0"/>
+						<Position point="43.75 291.52752 49.88999" orientation="1 0.000000001 0"/>
+						<Position point="43.75 293.0291 42.55546" orientation="1 0.000000001 0"/>
+						<Position point="43.75 294.33437 35.38391" orientation="1 0.000000001 0"/>
+						<Position point="43.75 295.45691 28.37962" orientation="1 0.000000001 0"/>
+						<Position point="43.75 296.40994 21.54543" orientation="1 0.000000001 0"/>
+						<Position point="43.75 297.20627 14.88293" orientation="1 0.000000001 0"/>
+						<Position point="43.75 297.85821 8.39258" orientation="1 0.000000001 0"/>
+						<Position point="43.75 298.37751 2.07384" orientation="1 0.000000001 0"/>
+						<Position point="43.75 298.77531 -4.07466" orientation="1 0.000000001 0"/>
+						<Position point="43.75 299.2478 -15.86992" orientation="1 0.000000001 0"/>
+						<Position point="43.75 299.35214 -27.01655" orientation="1 0.000000001 0"/>
+						<Position point="43.75 299.15473 -37.54441" orientation="1 0.000000001 0"/>
+					</PositionSequence>
+					<MillForm>
+						<MillFormFlat radius="10" length="8.2" color="FF00FF"/>
+					</MillForm>
+				</VolGrooveGeneral>
+			</Transform>
+			<Transform translation="46.75 25 27" rotation="1 0.391869559501922 1 150.0981137">
+				<VolGrooveLine startpoint="0 0 0" endpoint="-39.62308 -36.68803 0">
+					<MillFormCone radius="8" coneangle="90" coneheight="4" color="0000FF"/>
+				</VolGrooveLine>
+			</Transform>
+			<Transform>
+				<VolGrooveGeneral>
+					<PositionSequence>
+						<Position point="43.75 -14.45558 -301.15473" orientation="1 0 -0.000000001"/>
+						<Position point="43.75 -23.29595 -299.66464" orientation="1 0 -0.000000001"/>
+						<Position point="43.75 -32.75508 -297.8728" orientation="1 0 -0.000000001"/>
+						<Position point="43.75 -42.86283 -295.71281" orientation="1 0 -0.000000001"/>
+						<Position point="43.75 -48.16758 -294.47126" orientation="1 0 -0.000000001"/>
+						<Position point="43.75 -53.64257 -293.10821" orientation="1 0 -0.000000001"/>
+						<Position point="43.75 -59.28917 -291.61252" orientation="1 0 -0.000000001"/>
+						<Position point="43.75 -65.10792 -289.97244" orientation="1 0 -0.000000001"/>
+						<Position point="43.75 -71.09836 -288.17566" orientation="1 0 -0.000000001"/>
+						<Position point="43.75 -77.2589 -286.20938" orientation="1 0 -0.000000001"/>
+						<Position point="43.75 -83.58671 -284.06035" orientation="1 0 -0.000000001"/>
+						<Position point="43.75 -90.07748 -281.71502" orientation="1 0 -0.000000001"/>
+						<Position point="43.75 -96.72536 -279.15967" orientation="1 0 -0.000000001"/>
+						<Position point="43.75 -103.52275 -276.38054" orientation="1 0 -0.000000001"/>
+						<Position point="43.75 -110.46022 -273.36404" orientation="1 0 -0.000000001"/>
+						<Position point="43.75 -117.52635 -270.09698" orientation="1 0 -0.000000001"/>
+						<Position point="43.75 -124.70767 -266.56683" orientation="1 0 -0.000000001"/>
+						<Position point="43.75 -131.9886 -262.76197" orientation="1 0 -0.000000001"/>
+						<Position point="43.75 -139.35145 -258.672" orientation="1 0 0"/>
+						<Position point="43.75 -146.77644 -254.28806" orientation="1 0 0"/>
+						<Position point="43.75 -154.24183 -249.60315" orientation="1 0 0"/>
+						<Position point="43.75 -161.72406 -244.61242" orientation="1 0 0"/>
+						<Position point="43.75 -169.19799 -239.31349" orientation="1 0 0"/>
+						<Position point="43.75 -176.63719 -233.70668" orientation="1 0 0"/>
+						<Position point="43.75 -184.0143 -227.79525" orientation="1 0 0"/>
+						<Position point="43.75 -191.30142 -221.58554" orientation="1 0 0"/>
+						<Position point="43.75 -198.47059 -215.08702" orientation="1 0 0"/>
+						<Position point="43.75 -205.49428 -208.31232" orientation="1 0 0"/>
+						<Position point="43.75 -212.34583 -201.27713" orientation="1 0 0"/>
+						<Position point="43.75 -219 -194" orientation="1 -0.000000001 0"/>
+						<Position point="43.75 -225.43338 -186.50208" orientation="1 -0.000000001 0"/>
+						<Position point="43.75 -231.62481 -178.80678" orientation="1 -0.000000001 0"/>
+						<Position point="43.75 -237.55576 -170.93935" orientation="1 -0.000000001 0"/>
+						<Position point="43.75 -243.21053 -162.92642" orientation="1 -0.000000001 0"/>
+						<Position point="43.75 -248.5765 -154.79556" orientation="1 -0.000000001 0"/>
+						<Position point="43.75 -253.64417 -146.5747" orientation="1 -0.000000001 0"/>
+						<Position point="43.75 -258.40723 -138.29175" orientation="1 -0.000000001 0"/>
+						<Position point="43.75 -262.86241 -129.97407" orientation="1 -0.000000001 0"/>
+						<Position point="43.75 -267.00939 -121.64809" orientation="1 -0.000000001 0"/>
+						<Position point="43.75 -270.85056 -113.33895" orientation="1 -0.000000001 0"/>
+						<Position point="43.75 -274.39074 -105.07021" orientation="1 -0.000000001 0"/>
+						<Position point="43.75 -277.63697 -96.86361" orientation="1 -0.000000001 0"/>
+						<Position point="43.75 -280.59808 -88.73893" orientation="1 -0.000000001 0"/>
+						<Position point="43.75 -283.28448 -80.71386" orientation="1 -0.000000001 0"/>
+						<Position point="43.75 -285.70778 -72.80398" orientation="1 -0.000000001 0"/>
+						<Position point="43.75 -287.88053 -65.02276" orientation="1 -0.000000001 0"/>
+						<Position point="43.75 -289.81592 -57.38161" orientation="1 -0.000000001 0"/>
+						<Position point="43.75 -291.52752 -49.88999" orientation="1 -0.000000001 0"/>
+						<Position point="43.75 -293.0291 -42.55546" orientation="1 -0.000000001 0"/>
+						<Position point="43.75 -294.33437 -35.38391" orientation="1 -0.000000001 0"/>
+						<Position point="43.75 -295.45691 -28.37962" orientation="1 -0.000000001 0"/>
+						<Position point="43.75 -296.40994 -21.54543" orientation="1 -0.000000001 0"/>
+						<Position point="43.75 -297.20627 -14.88293" orientation="1 -0.000000001 0"/>
+						<Position point="43.75 -297.85821 -8.39258" orientation="1 -0.000000001 0"/>
+						<Position point="43.75 -298.37751 -2.07384" orientation="1 -0.000000001 0"/>
+						<Position point="43.75 -298.77531 4.07466" orientation="1 -0.000000001 0"/>
+						<Position point="43.75 -299.2478 15.86992" orientation="1 -0.000000001 0"/>
+						<Position point="43.75 -299.35214 27.01655" orientation="1 -0.000000001 0"/>
+						<Position point="43.75 -299.15473 37.54441" orientation="1 -0.000000001 0"/>
+					</PositionSequence>
+					<MillForm>
+						<MillFormFlat radius="10" length="8.2" color="FF00FF"/>
+					</MillForm>
+				</VolGrooveGeneral>
+			</Transform>
+			<Transform translation="46.75 -25 -27" rotation="-1 2.55186955943669 -1 97.6499031">
+				<VolGrooveLine startpoint="0 0 0" endpoint="-39.62308 -36.68803 0">
+					<MillFormCone radius="8" coneangle="90" coneheight="4" color="0000FF"/>
+				</VolGrooveLine>
+			</Transform>
+			<Transform>
+				<VolGrooveGeneral>
+					<PositionSequence>
+						<Position point="57 230.79674 194" orientation="1 0.000000001 0"/>
+						<Position point="57 221.27761 193.76632" orientation="1 0 0"/>
+						<Position point="57 211.78141 193.06584" orientation="1 0 0"/>
+						<Position point="57 202.33102 191.90024" orientation="1 0 0"/>
+						<Position point="57 192.94921 190.27235" orientation="1 0 0"/>
+						<Position point="57 183.65858 188.18606" orientation="1 0 0"/>
+						<Position point="57 174.48151 185.64643" orientation="1 0 0"/>
+						<Position point="57 165.4401 182.65955" orientation="1 0 0"/>
+						<Position point="57 156.55615 179.23263" orientation="1 0 0.000000001"/>
+						<Position point="57 147.85105 175.37392" orientation="1 0 0.000000001"/>
+						<Position point="57 139.34577 171.09273" orientation="1 0 0.000000001"/>
+						<Position point="57 131.0608 166.39935" orientation="1 0 0.000000001"/>
+						<Position point="57 123.01611 161.3051" orientation="1 0 0.000000001"/>
+						<Position point="57 115.23107 155.82226" orientation="1 0 0.000000001"/>
+						<Position point="57 107.72444 149.96403" orientation="1 0 0.000000001"/>
+						<Position point="57 100.5143 143.74452" orientation="1 0 0.000000001"/>
+						<Position point="57 93.61802 137.17871" orientation="1 0 0.000000001"/>
+						<Position point="57 87.05222 130.28244" orientation="1 0 0.000000001"/>
+						<Position point="57 80.83271 123.0723" orientation="1 0 0.000000001"/>
+						<Position point="57 74.97447 115.56566" orientation="1 0 0.000000001"/>
+						<Position point="57 69.49163 107.78062" orientation="1 0 0.000000001"/>
+						<Position point="57 64.39739 99.73593" orientation="1 0 0.000000001"/>
+						<Position point="57 59.70401 91.45097" orientation="1 0 0.000000001"/>
+						<Position point="57 55.42281 82.94569" orientation="1 0 0.000000001"/>
+						<Position point="57 51.56411 74.24058" orientation="1 0 0.000000001"/>
+						<Position point="57 48.13719 65.35663" orientation="1 0 0.000000001"/>
+						<Position point="57 45.15031 56.31522" orientation="1 0 0.000000001"/>
+						<Position point="57 42.61067 47.13815" orientation="1 0 0.000000001"/>
+						<Position point="57 40.52439 37.84752" orientation="1 0 0.000000001"/>
+						<Position point="57 38.89649 28.46571" orientation="1 0 0.000000001"/>
+						<Position point="57 37.7309 19.01532" orientation="1 0 0.000000001"/>
+						<Position point="57 37.03042 9.51913" orientation="1 0 0.000000001"/>
+						<Position point="57 36.79674 0" orientation="1 0 0.000000001"/>
+					</PositionSequence>
+					<MillForm>
+						<MillFormFlat radius="10" length="8.2" color="FF00FF"/>
+					</MillForm>
+				</VolGrooveGeneral>
+			</Transform>
+			<Transform>
+				<VolGrooveGeneral>
+					<PositionSequence>
+						<Position point="60 36.79674 0" orientation="1 0 0"/>
+						<Position point="60 37.03042 -9.51913" orientation="1 0 0"/>
+						<Position point="60 37.7309 -19.01533" orientation="1 0 0"/>
+						<Position point="60 38.89649 -28.46572" orientation="1 0 0"/>
+						<Position point="60 40.52439 -37.84753" orientation="1 0 0"/>
+						<Position point="60 42.61067 -47.13816" orientation="1 0 0"/>
+						<Position point="60 45.15031 -56.31523" orientation="1 0 0"/>
+						<Position point="60 48.13719 -65.35664" orientation="1 0 0"/>
+						<Position point="60 51.56411 -74.24059" orientation="1 0 0"/>
+						<Position point="60 55.42282 -82.94569" orientation="1 0 0"/>
+						<Position point="60 59.70401 -91.45097" orientation="1 0 0"/>
+						<Position point="60 64.39739 -99.73594" orientation="1 0 0"/>
+						<Position point="60 69.49163 -107.78063" orientation="1 0 0"/>
+						<Position point="60 74.97448 -115.56567" orientation="1 0 0"/>
+						<Position point="60 80.83271 -123.0723" orientation="1 0 0"/>
+						<Position point="60 87.05222 -130.28244" orientation="1 0 0"/>
+						<Position point="60 93.61802 -137.17872" orientation="1 0 0"/>
+						<Position point="60 100.5143 -143.74452" orientation="1 0 0"/>
+						<Position point="60 107.72444 -149.96403" orientation="1 0 0"/>
+						<Position point="60 115.23108 -155.82226" orientation="1 0 0"/>
+						<Position point="60 123.01612 -161.30511" orientation="1 0 0"/>
+						<Position point="60 131.06081 -166.39935" orientation="1 0 0"/>
+						<Position point="60 139.34577 -171.09273" orientation="1 0 0"/>
+						<Position point="60 147.85105 -175.37393" orientation="1 0 0"/>
+						<Position point="60 156.55616 -179.23263" orientation="1 0 0"/>
+						<Position point="60 165.44011 -182.65955" orientation="1 0 0"/>
+						<Position point="60 174.48151 -185.64643" orientation="1 0 0"/>
+						<Position point="60 183.65859 -188.18607" orientation="1 0 0"/>
+						<Position point="60 192.94922 -190.27235" orientation="1 0 0"/>
+						<Position point="60 202.33103 -191.90025" orientation="1 0 0"/>
+						<Position point="60 211.78142 -193.06584" orientation="1 0 0"/>
+						<Position point="60 221.27761 -193.76632" orientation="1 0 0"/>
+						<Position point="60 230.79674 -194" orientation="1 0 0"/>
+					</PositionSequence>
+					<MillForm>
+						<MillFormCone radius="8" coneangle="90" coneheight="4" color="0000FF"/>
+					</MillForm>
+				</VolGrooveGeneral>
+			</Transform>
+			<Transform translation="50.75 30 0" rotation="1 1 1 120">
+				<VolGrooveLine startpoint="0 0 0" endpoint="-30 0 0">
+					<MillFormFlat radius="10" length="8.2" color="FF00FF"/>
+				</VolGrooveLine>
+			</Transform>
+			<Transform>
+				<VolGrooveGeneral>
+					<PositionSequence>
+						<Position point="50.75 0 0" orientation="1 0 -0.000000001"/>
+						<Position point="50.75 -30 0" orientation="1 0 -0.000000001"/>
+					</PositionSequence>
+					<MillForm>
+						<MillFormFlat radius="10" length="8.2" color="FF00FF"/>
+					</MillForm>
+				</VolGrooveGeneral>
+			</Transform>
+		</Negative_part>
+	</Boolean3>
+</Workpiece>

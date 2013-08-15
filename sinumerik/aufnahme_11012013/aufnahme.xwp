@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='Windows-1252'?>
+<Workpiece name="MWP_WorkPiece-1" user="200">
+	<WorkpieceMaterial Name="P\Unalloyed engineering steel\Plain steel\St50-2">
+		<AppearanceBlank diffuse="818181" ambient="313131" specular="828282" shininess="0.4"/>
+		<AppearanceMachined diffuse="DBDBDB" shader="mts.metal"/>
+	</WorkpieceMaterial>
+	<Boolean3>
+		<Positive_part>
+			<VolRotation>
+				<Boolean2>
+					<Outer_contours>
+						<Contour startpoint="81.4562350774237 15.9999957857489" closed="true">
+							<ContourArc endpoint="83.2385043252622 17.9450072700831" center="86.6622751441198 13.0186311575183" angle="-25.4025224" color="80FF80"/>
+							<ContourArc endpoint="86.1879406121999 18.9993681830433" center="86.6632597891129 13.0172142322696" angle="-30.2558644" color="80FF80"/>
+							<ContourArc endpoint="86.2038617457382 18.999999704195" center="86.2038617457382 18.7989919379363" angle="-4.5429602" color="80FF80"/>
+							<ContourLine endpoint="97.0797596258337 18.999999704195" color="80FF80"/>
+							<ContourArc endpoint="97.1747456877471 18.9761409434048" center="97.0797596258337 18.7989919379363" angle="-28.1998992" color="80FF80"/>
+							<ContourLine endpoint="100.860249098874 16.999999704195" color="80FF80"/>
+							<ContourLine endpoint="111.917153253954 16.999999704195" color="80FF80"/>
+							<ContourArc endpoint="112.038906353626 16.9589303786452" center="111.917153253954 16.7989919379362" angle="-37.2801959" color="80FF80"/>
+							<ContourLine endpoint="113 16.2269542984103" color="80FF80"/>
+							<ContourLine endpoint="113 21.580146504662" color="FF8080"/>
+							<ContourArc endpoint="112.083416121884 22.5767230621081" center="111.99999999857 21.5802082568768" angle="85.2185862" color="80FF80"/>
+							<ContourLine endpoint="84.6971339682154 24.869170276095" color="80FF80"/>
+							<ContourArc endpoint="84.3633738436773 24.7999469173341" center="84.6470842922248 24.271261395133" angle="33.0044565" color="80FF80"/>
+							<ContourLine endpoint="82.6328922878101 23.8713122606211" color="80FF80"/>
+							<ContourArc endpoint="82.3491818392627 23.7999977828222" center="82.3491818392627 24.3999977828222" angle="-28.2195044" color="80FF80"/>
+							<ContourLine endpoint="81.3999999952327 23.7999977828222" color="80FF80"/>
+							<ContourArc endpoint="80.9999999952327 24.1999977828222" center="81.3999999952327 24.1999977828222" angle="-90" color="80FF80"/>
+							<ContourLine endpoint="80.9999999952328 31.4999977828222" color="80FF80"/>
+							<ContourLine endpoint="68.6857011955769 31.4999977828222" color="80FF80"/>
+							<ContourLine endpoint="65.5298285699561 26.5462700391653" color="FF00FF"/>
+							<ContourArc endpoint="65.4454894253748 26.5" center="65.4454894253748 26.6" angle="-57.5" color="FF00FF"/>
+							<ContourLine endpoint="60.5552131827001 26.5" color="FF00FF"/>
+							<ContourArc endpoint="60.4708740381188 26.5462700391653" center="60.5552131827001 26.6" angle="-57.5" color="FF00FF"/>
+							<ContourLine endpoint="57.315001412498 31.4999977828222" color="FF00FF"/>
+							<ContourLine endpoint="18.3999999952327 31.4999977828222" color="80FF80"/>
+							<ContourArc endpoint="17.9999999952327 31.8999977828221" center="18.3999999952327 31.8999977828222" angle="-90" color="80FF80"/>
+							<ContourLine endpoint="17.9999999952327 32.4999977828222" color="80FF80"/>
+							<ContourLine endpoint="0 32.5"/>
+							<ContourLine endpoint="0 0"/>
+							<ContourLine endpoint="55 0"/>
+							<ContourLine endpoint="55 11.9999958012974" color="808000"/>
+							<ContourLine endpoint="71.0000000000001 11.9999958012974" color="808000"/>
+							<ContourLine endpoint="71.0000000000001 15.9999957857489" color="808000"/>
+							<ContourLine endpoint="81.4562350774237 15.9999957857489" color="808000"/>
+						</Contour>
+					</Outer_contours>
+					<Inner_contours/>
+				</Boolean2>
+			</VolRotation>
+		</Positive_part>
+		<Negative_part>
+			<Transform translation="106.8 34.99999 2.555" rotation="1 0.929660959507094 1 122.4391185">
+				<Pocket height="11" color="FF00FF">
+					<Boolean2>
+						<Outer_contours>
+							<Contour startpoint="-73.0697314111464 2.77228453850691" closed="true">
+								<ContourArc endpoint="-70.477479680103 -3.98938441257733" center="-70.1862546177721 -3.53996589726516e-009" angle="129.6985243"/>
+								<ContourLine endpoint="-0.663252521949246 -9.08582300336802"/>
+								<ContourArc endpoint="2.88347679337425 -2.77228454204689" center="-0.372027459618351 -5.09643859433066" angle="129.6988052"/>
+								<ContourArc endpoint="0.291225062330896 3.98938440903736" center="-1.43898877871438e-016 3.75348027719338e-016" angle="129.6985243"/>
+								<ContourLine endpoint="-69.5230020958229 9.08582299982805"/>
+								<ContourArc endpoint="-73.0697314111464 2.77228453850691" center="-69.8142271581538 5.09643859079068" angle="129.6988052"/>
+							</Contour>
+						</Outer_contours>
+						<Inner_contours/>
+					</Boolean2>
+				</Pocket>
+			</Transform>
+			<Transform translation="70 33 0" rotation="0 1 1 180">
+				<VolGrooveLine startpoint="0 0 0" endpoint="0 0 -8">
+					<MillFormFlat radius="4" length="11" color="8000FF"/>
+				</VolGrooveLine>
+			</Transform>
+			<Transform translation="70 25 0" rotation="0 1 1 180">
+				<VolGrooveLine startpoint="0 0 0" endpoint="27 0 0">
+					<MillFormFlat radius="4" length="11" color="8000FF"/>
+				</VolGrooveLine>
+			</Transform>
+			<Transform translation="70 -33 0" rotation="0 1 -1 180">
+				<VolGrooveLine startpoint="0 0 0" endpoint="0 0 -8">
+					<MillFormFlat radius="4" length="11" color="8000FF"/>
+				</VolGrooveLine>
+			</Transform>
+			<Transform translation="70 -25 0" rotation="0 1 -1 180">
+				<VolGrooveLine startpoint="0 0 0" endpoint="27 0 0">
+					<MillFormFlat radius="4" length="11" color="8000FF"/>
+				</VolGrooveLine>
+			</Transform>
+		</Negative_part>
+	</Boolean3>
+</Workpiece>

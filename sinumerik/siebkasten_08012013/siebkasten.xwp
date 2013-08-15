@@ -1,0 +1,96 @@
+<?xml version='1.0' encoding='Windows-1252'?>
+<Workpiece name="MWP_WorkPiece-1" user="200">
+	<WorkpieceMaterial Name="P\Free machine steel\44SMn28">
+		<AppearanceBlank diffuse="818181" ambient="313131" specular="828282" shininess="0.4"/>
+		<AppearanceMachined diffuse="DBDBDB" shader="mts.metal"/>
+	</WorkpieceMaterial>
+	<Boolean3>
+		<Positive_part>
+			<VolRotation>
+				<Boolean2>
+					<Outer_contours>
+						<Contour startpoint="64.2488398688591 28" closed="true">
+							<ContourLine endpoint="63.6181487540002 26.9121077587597" color="DC143C"/>
+							<ContourArc endpoint="63.5163824056348 26.8099055013156" center="63.3735093266304 27.0539364816176" angle="-29.5494204" color="DC143C"/>
+							<ContourArc endpoint="63.369240567842 26.77" center="63.369240567842 27.0612276340101" angle="-30.3477386" color="DC143C"/>
+							<ContourArc endpoint="63.1867568853287 26.8338014413198" center="63.369240567842 27.0628689189855" angle="-38.5421324" color="DC143C"/>
+							<ContourArc endpoint="63.1185833981503 26.9121077587597" center="63.3656841084125 27.0584045790525" angle="-20.8300686" color="DC143C"/>
+							<ContourLine endpoint="62.863108002137 27.3436150989943" color="DC143C"/>
+							<ContourLine endpoint="62.4535898384862 27.1071796769725" color="80FF80"/>
+							<ContourArc endpoint="62.0535898384862 27.0000000000001" center="62.0535898384863 27.8000000000001" angle="-30" color="80FF80"/>
+							<ContourLine endpoint="60.8 27.0000000000001" color="80FF80"/>
+							<ContourArc endpoint="60 27.8000000000006" center="60.8 27.8000000000001" angle="-90" color="80FF80"/>
+							<ContourLine endpoint="60 30" color="80FF80"/>
+							<ContourLine endpoint="0 30"/>
+							<ContourLine endpoint="0 0"/>
+							<ContourLine endpoint="4.99999999999997 0"/>
+							<ContourLine endpoint="4.99999999999997 14.5491350546051" color="808000"/>
+							<ContourLine endpoint="4.99998781361754 24.2000073251611" color="008000"/>
+							<ContourArc endpoint="5.79998781361755 25.0000073251611" center="5.79998781361754 24.2000073251611" angle="-90" color="008000"/>
+							<ContourLine endpoint="81 25.0000073251611" color="008000"/>
+							<ContourLine endpoint="81 26.0000000000001" color="80FF80"/>
+							<ContourLine endpoint="79.790538440427 27.209461559573" color="80FF80"/>
+							<ContourLine endpoint="79.6181487718453 26.9121077587597" color="DC143C"/>
+							<ContourArc endpoint="79.5163824234799 26.8099055013156" center="79.3735093444755 27.0539364816176" angle="-29.5494204" color="DC143C"/>
+							<ContourArc endpoint="79.3692405856871 26.77" center="79.3692405856871 27.0612276340101" angle="-30.3477386" color="DC143C"/>
+							<ContourArc endpoint="79.1867569031737 26.8338014413198" center="79.3692405856871 27.0628689189855" angle="-38.5421324" color="DC143C"/>
+							<ContourArc endpoint="79.1185834159954 26.9121077587597" center="79.3656841262575 27.0584045790525" angle="-20.8300686" color="DC143C"/>
+							<ContourLine endpoint="78.4745032844876 28" color="DC143C"/>
+							<ContourLine endpoint="78.2488398844736 28" color="80FF80"/>
+							<ContourLine endpoint="77.6181487696146 26.9121077587597" color="DC143C"/>
+							<ContourArc endpoint="77.5163824212492 26.8099055013156" center="77.3735093422449 27.0539364816176" angle="-29.5494204" color="DC143C"/>
+							<ContourArc endpoint="77.3692405834565 26.77" center="77.3692405834565 27.0612276340101" angle="-30.3477386" color="DC143C"/>
+							<ContourArc endpoint="77.1867569009431 26.8338014413198" center="77.3692405834565 27.0628689189855" angle="-38.5421324" color="DC143C"/>
+							<ContourArc endpoint="77.1185834137648 26.9121077587597" center="77.3656841240269 27.0584045790525" angle="-20.8300686" color="DC143C"/>
+							<ContourLine endpoint="76.4745032822569 28" color="DC143C"/>
+							<ContourLine endpoint="76.248839882243 28" color="80FF80"/>
+							<ContourLine endpoint="75.618148767384 26.9121077587597" color="DC143C"/>
+							<ContourArc endpoint="75.5163824190186 26.8099055013156" center="75.3735093400142 27.0539364816176" angle="-29.5494204" color="DC143C"/>
+							<ContourArc endpoint="75.3692405812258 26.77" center="75.3692405812258 27.0612276340101" angle="-30.3477386" color="DC143C"/>
+							<ContourArc endpoint="75.1867568987125 26.8338014413198" center="75.3692405812258 27.0628689189855" angle="-38.5421324" color="DC143C"/>
+							<ContourArc endpoint="75.1185834115342 26.9121077587597" center="75.3656841217963 27.0584045790525" angle="-20.8300686" color="DC143C"/>
+							<ContourLine endpoint="74.4745032800263 28" color="DC143C"/>
+							<ContourLine endpoint="74.2488398800123 28" color="80FF80"/>
+							<ContourLine endpoint="73.6181487651534 26.9121077587597" color="DC143C"/>
+							<ContourArc endpoint="73.516382416788 26.8099055013156" center="73.3735093377836 27.0539364816176" angle="-29.5494204" color="DC143C"/>
+							<ContourArc endpoint="73.3692405789952 26.77" center="73.3692405789952 27.0612276340101" angle="-30.3477386" color="DC143C"/>
+							<ContourArc endpoint="73.1867568964818 26.8338014413198" center="73.3692405789952 27.0628689189855" angle="-38.5421324" color="DC143C"/>
+							<ContourArc endpoint="73.1185834093035 26.9121077587597" center="73.3656841195656 27.0584045790525" angle="-20.8300686" color="DC143C"/>
+							<ContourLine endpoint="72.4745032777957 28" color="DC143C"/>
+							<ContourLine endpoint="72.2488398777817 28" color="80FF80"/>
+							<ContourLine endpoint="71.6181487629227 26.9121077587597" color="DC143C"/>
+							<ContourArc endpoint="71.5163824145573 26.8099055013156" center="71.373509335553 27.0539364816176" angle="-29.5494204" color="DC143C"/>
+							<ContourArc endpoint="71.3692405767646 26.77" center="71.3692405767646 27.0612276340101" angle="-30.3477386" color="DC143C"/>
+							<ContourArc endpoint="71.1867568942512 26.8338014413198" center="71.3692405767646 27.0628689189855" angle="-38.5421324" color="DC143C"/>
+							<ContourArc endpoint="71.1185834070729 26.9121077587597" center="71.365684117335 27.0584045790525" angle="-20.8300686" color="DC143C"/>
+							<ContourLine endpoint="70.474503275565 28" color="DC143C"/>
+							<ContourLine endpoint="70.248839875551 28" color="80FF80"/>
+							<ContourLine endpoint="69.6181487606921 26.9121077587597" color="DC143C"/>
+							<ContourArc endpoint="69.5163824123267 26.8099055013156" center="69.3735093333223 27.0539364816176" angle="-29.5494204" color="DC143C"/>
+							<ContourArc endpoint="69.3692405745339 26.77" center="69.3692405745339 27.0612276340101" angle="-30.3477386" color="DC143C"/>
+							<ContourArc endpoint="69.1867568920206 26.8338014413198" center="69.3692405745339 27.0628689189855" angle="-38.5421324" color="DC143C"/>
+							<ContourArc endpoint="69.1185834048423 26.9121077587597" center="69.3656841151044 27.0584045790525" angle="-20.8300686" color="DC143C"/>
+							<ContourLine endpoint="68.4745032733344 28" color="DC143C"/>
+							<ContourLine endpoint="68.2488398733204 28" color="80FF80"/>
+							<ContourLine endpoint="67.6181487584614 26.9121077587597" color="DC143C"/>
+							<ContourArc endpoint="67.5163824100961 26.8099055013156" center="67.3735093310917 27.0539364816176" angle="-29.5494204" color="DC143C"/>
+							<ContourArc endpoint="67.3692405723033 26.77" center="67.3692405723033 27.0612276340101" angle="-30.3477386" color="DC143C"/>
+							<ContourArc endpoint="67.1867568897899 26.8338014413198" center="67.3692405723033 27.0628689189855" angle="-38.5421324" color="DC143C"/>
+							<ContourArc endpoint="67.1185834026116 26.9121077587597" center="67.3656841128737 27.0584045790525" angle="-20.8300686" color="DC143C"/>
+							<ContourLine endpoint="66.4745032711038 28" color="DC143C"/>
+							<ContourLine endpoint="66.2488398710898 28" color="80FF80"/>
+							<ContourLine endpoint="65.6181487562308 26.9121077587597" color="DC143C"/>
+							<ContourArc endpoint="65.5163824078654 26.8099055013156" center="65.3735093288611 27.0539364816176" angle="-29.5494204" color="DC143C"/>
+							<ContourArc endpoint="65.3692405700726 26.77" center="65.3692405700727 27.0612276340101" angle="-30.3477386" color="DC143C"/>
+							<ContourArc endpoint="65.1867568875593 26.8338014413198" center="65.3692405700726 27.0628689189855" angle="-38.5421324" color="DC143C"/>
+							<ContourArc endpoint="65.118583400381 26.9121077587597" center="65.3656841106431 27.0584045790525" angle="-20.8300686" color="DC143C"/>
+							<ContourLine endpoint="64.4745032688732 28" color="DC143C"/>
+							<ContourLine endpoint="64.2488398688591 28" color="80FF80"/>
+						</Contour>
+					</Outer_contours>
+					<Inner_contours/>
+				</Boolean2>
+			</VolRotation>
+		</Positive_part>
+	</Boolean3>
+</Workpiece>
