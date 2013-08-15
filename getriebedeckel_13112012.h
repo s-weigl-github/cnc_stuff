@@ -1,0 +1,169 @@
+( Einrichtblatt
+(   Maschine: "DMU 50-BC T40 SK40"
+(   Steuerung: "HEIDENHAIN iTNC 530 340422 BC DEU"
+(
+( Allgemeine Informationen
+(   Programmierer: "Sebastian Weigl"
+(   Erstellungszeit: "13.11.2012 14:51"
+(
+( Werkstück
+(   Quader: QX120 QY90 QZ16
+(   Werkstoff: "P\Unlegierter Baustahl\Grundstahl\S235JR"
+(
+( Werkstück-Einspannung
+(   Spannmittel: "T-Nut-A14H8\NC-HDS\HDS-ZS 125x350x110"
+(   Spannmittelaufsatz: "HDSB 125\HDS-AufsatzB\HDSB B125xL70_40xH40_20"
+(   Spannmittel-Ausrichtung: X-
+(   Spannungsart: innenstufige Backen
+(   Einspanntiefe: ET4
+(   Werkstückposition: XMT0 YMT0 ZMT146
+(
+( Werkzeugsystem
+(   Werkzeugsatz: leer
+(   Werkzeugliste
+(     T01: "SK40\WalzenstirnF\WSF 40x32x16 R_AFD-40 32x55(17)" FF0000
+(     T02: "SK40\BohrnutenF\BNF-B 6x8(52) R_SZF-40 ER16x60" 008000
+(     T03: "SK40\BohrnutenF\BNF-B 22x22(88) R_SZF-40 ER32x70" 00FF00
+(     T04: "SK40\NC-AnBo\NCABO-90 10x25(170) R_SZF-40 ER25x60" 0000FF
+(     T05: "SK40\SpiralBo HSS l\SPIBO HSS-l 6.8x102156) R_SPBF-40 13x79" FFFF00
+(     T06: "SK40\GewindeBo\GBF 8x22(90) 1 R_SZF-40 ER25x60" FF00FF
+(   Aktives Werkzeug: T01
+(
+(   Werkzeugkorrekturwertliste
+(     T01 TC1: KL+087.000 KR020.000 NZ06
+(     T02 TC1: KL+077.100 KR003.000 NZ02
+(     T03 TC1: KL+118.100 KR011.000 NZ02
+(     T04 TC1: KL+195.225 KR005.000 NZ02
+(     T04 TC2: KL+195.100 KR005.000 NZ02
+(     T04 TC3: KL+190.225 KR005.000 NZ02
+(     T05 TC1: KL+183.800 KR003.400
+(     T05 TC2: KL+181.808 KR003.400
+(     T05 TC3: KL+183.851 KR003.400
+(     T06 TC1: KL+090.100 KR004.000 NZ04
+(
+( Nullpunktregister
+(   Nullpunkt G54: XP-60 YP-45 ZP16 NT1
+(
+( Einrichtblatt-Ende
+BEGIN PGM 3 MM
+N1 BLK FORM 0.1 Z X0 Y0 Z-16
+N2 BLK FORM 0.2 X120 Y90 Z0
+N3 TOOL CALL 1 Z S1800 F200 DR+0.5
+N4 LBL 1  ;;---------------------------------------fräsen der aussenkontur R44,1
+N5 L X-50 Y-50 Z1 FMAX M13
+N6 L Z-11.5 FMAX
+N7 APPR LCT X6 Y12.9 R20 RL
+N8 L Y67.344
+N9 CR X+16.607 Y+79.263 R+12 DR-
+N10 L X66.708 Y85.117
+N11 CR X98.239 Y6 R44.1 DR-
+N12 L X34
+N13 L X6 Y12.5
+N14 DEP LCT X-50 Y-50 R20
+N15 L Z1 R0 FMAX
+N16 LBL 0
+N17 TOOL CALL 3 Z S3600 F220 DR+0.5
+N18 LBL 2  ;;------------------------------------fräsen der innenkontur R36
+N19 L X50 Y-30 Z1 FMAX M13
+N20 L Z-3 FMAX
+N21 APPR LCT X41.924 Y6 R10 RR
+N22 L Y71.84
+N23 RND R12.5
+N24 L X64.456 Y76.553
+N25 CR X95.99 Y14.63 R36 DR-
+N26 L Y6
+N27 DEP LCT X50 Y-30 R10
+N28 L Z1 R0 FMAX
+N29 LBL 0
+N30 TOOL CALL 3 Z S2000 F200
+N31 CALL LBL 1  ;;-------------------------------schlichten der aussenkontur
+N32 CALL LBL 2  ;;-------------------------------schlichten der innenkontur
+N33 L X73.5 Y38 Z1 FMAX
+N34 CYCL DEF 4.0 TASCHENFRAESEN  ;;--------------rechtecktasche zum räumen der innenkontur
+N35 CYCL DEF 4.1 ABST 1
+N36 CYCL DEF 4.2 TIEFE -3
+N37 CYCL DEF 4.3 ZUSTLG 3 F100
+N38 CYCL DEF 4.4 X+27
+N39 CYCL DEF 4.5 Y+70
+N40 CYCL DEF 4.6 F200 DR- RADIUS 12
+N41 CYCL CALL
+N42 L X71.826 Y41.315 Z1 FMAX
+N43 CYCL DEF 5.0 KREISTASCHE  ;;-----------------kreistasche Ø36H7
+N44 CYCL DEF 5.1 ABST 1
+N45 CYCL DEF 5.2 TIEFE -7.5
+N46 CYCL DEF 5.3 ZUSTLG 3 F100
+N47 CYCL DEF 5.4 RADIUS 18.003
+N48 CYCL DEF 5.5 F200 DR-
+N49 CYCL CALL
+N50 TOOL CALL 2 Z S2000 F200
+N51 L X24.5 Y43.4 Z1 FMAX M13
+N52 CYCL DEF 4.0 TASCHENFRAESEN  ;;-------------fräsen der rechtecktasche
+N53 CYCL DEF 4.1 ABST 1
+N54 CYCL DEF 4.2 TIEFE -6.5
+N55 CYCL DEF 4.3 ZUSTLG 3 F100
+N56 CYCL DEF 4.4 X+20.9
+N57 CYCL DEF 4.5 Y+33.2
+N58 CYCL DEF 4.6 F200 DR- RADIUS 4
+N59 CYCL DEF 10.0 DREHUNG  ;;-------------------drehung des koordinatensystems um 8°
+N60 CYCL DEF 10.1 ROT-8
+N61 CYCL CALL  ;;-------------------------------aufruf rechtecktasche
+N62 CYCL DEF 10.0 DREHUNG  ;;-------------------aufhebung der drehung
+N63 CYCL DEF 10.1 ROT+0
+N64 L X71.826 Y13 Z1 FMAX 
+N65 CYCL DEF 210 NUT PENDELND ~  ;;------------langlochnut unter kreistasche
+    Q200=+1 ;SICHERHEITS-ABST. ~
+    Q201=-5 ;TIEFE ~
+    Q207=100 ;VORSCHUB FRAESEN ~
+    Q202=+5 ;ZUSTELL-TIEFE ~
+    Q215=2 ;BEARBEITUNGS-UMFANG ~
+    Q203=+0 ;KOOR. OBERFLAECHE ~
+    Q204=+1 ;2. SICHERHEITS-ABST. ~
+    Q216=+71.826 ;MITTE 1. ACHSE ~
+    Q217=+13 ;MITTE 2. ACHSE ~
+    Q218=+30 ;1. SEITEN-LAENGE ~
+    Q219=+7.966 ;2. SEITEN-LAENGE ~
+    Q224=+0 ;DREHLAGE ~
+    Q338=+0 ;ZUST. SCHLICHTEN ~
+    Q206=200 ;VORSCHUB TIEFENZ.
+N66 CYCL CALL
+N67 TOOL CALL 4 Z S2000 F200
+N68 L X71.826 Y41.315 Z1 FMAX M13
+N69 CYCL DEF 200 BOHREN ~  ;;--------------------anbohren
+    Q200=+1 ;SICHERHEITS-ABST. ~
+    Q201=-7.5 ;TIEFE ~
+    Q206=100 ;VORSCHUB TIEFENZ. ~
+    Q202=+3 ;ZUSTELL-TIEFE ~
+    Q210=0 ;VERWEILZEIT OBEN ~
+    Q203=+0 ;KOOR. OBERFLAECHE ~
+    Q204=+1 ;2. SICHERHEITS-ABST. ~
+    Q211=0.1 ;VERWEILZEIT UNTEN
+N70 LBL 3
+N71 CYCL DEF 220 MUSTER KREIS ~
+    Q216=+71.826 ;MITTE 1. ACHSE ~
+    Q217=+41.315 ;MITTE 2. ACHSE ~
+    Q244=+57 ;TEILKREIS-DURCHM. ~
+    Q245=+40.847 ;STARTWINKEL ~
+    Q246=+90 ;ENDWINKEL ~
+    Q247=+49.153 ;WINKELSCHRITT ~
+    Q241=+2 ;ANZAHL BEARBEITUNGEN ~
+    Q200=+1 ;SICHERHEITS-ABST. ~
+    Q203=+0 ;KOOR. OBERFLAECHE ~
+    Q204=+1 ;2. SICHERHEITS-ABST. ~
+    Q301=+1 ;FAHREN AUF S. HOEHE ~
+    Q365=+1 ;VERFAHRART
+N72 LBL 0
+N73 TOOL CALL 5 Z S2000 F200
+N74 L X71.826 Y41.315 Z1 FMAX M13
+N75 Q201=-18.04  ;;-----------------------------aufruf für durchgangsbohrung
+N76 CALL LBL 3
+N77 TOOL CALL 6 Z S2000 F200
+N78 L X71.826 Y41.315 Z1 FMAX M13
+N79 CYCL DEF 2.0 GEWINDEBOHREN  ;;-------------gewindebohrzyklus M8
+N80 CYCL DEF 2.1 ABST 1
+N81 CYCL DEF 2.2 TIEFE -18.04
+N82 CYCL DEF 2.3 V.ZEIT 0.1
+N83 CYCL DEF 2.4 F100
+N84 CALL LBL 3  ;;----------------------------aufruf gewinde M8
+N85 L X200 Y200 Z100 FMAX
+N86 M30
+N87 END PGM 3 MM
