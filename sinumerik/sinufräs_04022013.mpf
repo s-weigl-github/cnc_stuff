@@ -1,0 +1,75 @@
+{ Einrichtblatt
+{   Maschine: "DMU 50-BC T40 SK40"
+{   Steuerung: "SINUMERIK 840DM BC"
+{
+{ Allgemeine Informationen
+{   Programmierer: "Sebastian Weigl"
+{   Erstellungszeit: "04.02.2013 10:45"
+{
+{ Werkstück
+{   Quader: QX80 QY80 QZ20
+{   Werkstoff: "N\Aluminium\AlMgSi1"
+{
+{ Werkstück-Einspannung
+{   Spannmittel: "T-Nut-A14H8\NC-HDS\HDS-ZS 125x350x110"
+{   Spannmittelaufsatz: "HDSB 125\HDS-AufsatzB\HDSB B125xL70_40xH40_20"
+{   Spannmittel-Ausrichtung: X-
+{   Schraubstock-Verschiebung: V0
+{   Spannungsart: innenstufige Backen
+{   Einspanntiefe: ET4
+{   Werkstückposition: XMT0 YMT0 ZMT146
+{
+{ Werkzeugsystem
+{   Werkzeugsatz: leer
+{   Werkzeugliste
+{     T01: "SK40\BohrnutenF\BNF-B 5x8(52) R_SZF-40 ER16x60" FF8080
+{     T02: "SK40\SpiralBo HSS k\SPIBO HSS-k 6.8x69(109) R_SPBF-40 13x79" 00FF00
+{     T03: "SK40\NC-AnBo\NCABO-90 12x30(102) R_SZF-40 ER25x60" 0000FF
+{   Aktives Werkzeug: T01
+{
+{   Werkzeugkorrekturwertliste
+{     T01 TC1: KL+077.100 KR002.500 NZ02
+{     T02 TC1: KL+150.800 KR003.400
+{     T02 TC2: KL+148.808 KR003.400
+{     T02 TC3: KL+150.851 KR003.400
+{     T03 TC1: KL+127.250 KR006.000 NZ02
+{     T03 TC2: KL+127.100 KR006.000 NZ02
+{     T03 TC3: KL+121.250 KR006.000 NZ02
+{
+{ Nullpunktregister
+{   Nullpunkt G54: XP0 YP0 ZP20 NT5
+{   Nullpunkt G55: XP70 YP-40 ZP28
+{   Nullpunkt G56: XP70 YP60 ZP28
+{   Nullpunkt G57: XP-30 YP60 ZP28
+{
+{ Einrichtblatt-Ende
+N10 G54
+N15 G90
+N20 G94 F220
+N25 T1 D1
+N30 S2500 M13
+N35 G0 X0 Y0 Z1
+N40 POCKET3(1,0,1,-5,75,25,7,0,0,0,3,,,110,220,2,11,,,,,,)
+N45 POCKET4(1,0,1,-10,20,0,0,3,,,110,220,2,11,,,,,)
+N50 G94 F220
+N55 T2 D1
+N60 S2200 M13
+N65 G0 X0 Y0 Z1
+N70 MCALL CYCLE81(1,0,,-23,)
+N75 HOLES1(-30,-30,0,0,60,2)
+N80 HOLES1(-30,30,0,0,60,2)
+N85 HOLES2(0,0,27.5,40,20,6)
+N90 HOLES2(0,0,27.5,220,20,6)
+N95 MCALL
+N100 G94 F220
+N105 T3 D1
+N110 S2200 M13
+N115 G0 X0 Y0 Z1
+N120 MCALL CYCLE81(1,0,,-3.9,)
+N125 HOLES1(-30,-30,0,0,60,2)
+N130 HOLES1(-30,30,0,0,60,2)
+N135 HOLES2(0,0,27.5,40,20,6)
+N140 HOLES2(0,0,27.5,220,20,6)
+N145 MCALL
+N150 G0 X0 Y0 Z150
+N155 M30
