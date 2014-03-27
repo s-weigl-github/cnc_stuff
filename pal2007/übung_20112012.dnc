@@ -1,0 +1,129 @@
+; Einrichtblatt
+;   Maschine: "PAL-TC-Reitstock"
+;   Steuerung: "PAL2007-Turn"
+;
+; Allgemeine Informationen
+;   Erstellungszeit: "20.11.2012 08:27"
+;
+; Werkstück
+;   Zylinder: L110 DA80
+;   Werkstoff: "N\Messing\CuZn40Al2"
+;
+; Werkstück-Einspannung
+;   Spannmittel: "DIN55028 A8\KraftspannF\KSF200-3AsB"
+;   Spannmittelaufsatz: "AsB40V1.5x60\AufsatzB hart\HB3-B40xL49_24_12xH75_45_15"
+;   Spannungsart: Außenspannung außenstufige Backen
+;   Einspanntiefe: ET15
+;
+; Reitstock
+;   Reitstockspitze: "MK4\Reitstockspitze\KSMK4-60-30-25_44"
+;   Reitstockposition: ZR1100 M10
+;
+; Werkzeugsystem
+;   Werkzeugsatz: leer
+;   Werkzeugliste
+;     T01: "VDI30A\Linker EckDm\DNMG 150608_PDJNL 2020 H 15_B1-30 2022" 0000FF
+;     T02: "VDI30A\Linker EckDm\VBMT 110302_SVJBL 2020 H 11_B1-30 2022" 008000
+;     T03: "VDI30A\AußeneinstechM\SE-2.50-0700-02NR_EFS-2.50-2020-K20L_B5-30 2022"
+;     T04: "VDI30A\GewindeM linker H\M60E-1.50-16R_E16-2020-KR_B7-30 2022"
+;     T06: "VDI30A\Bohrstange nm\CCMT 060204_A10H - SCFCL 06_E2-30 10x60" FF8000
+;     T09: "VDI30A\Bohrstange nm\VBMT 110302_A20Q - SVQBL 11_E2-30 20x60" FFFF00
+;     T12: "VDI30A\WendeplattenBo\WPB 30x60(149) R_E1-30 32x75" 00FF00
+;   Aktives Werkzeug: T01
+;
+;   Werkzeugkorrekturwertliste
+;     T01 TC1: KZ+047.000 KX+075.000 Q3 QZ-000.800 QX-000.800 R000.800 Ap032.178 Kr+002.372 DB000.000 SL014.680
+;     T02 TC1: KZ+047.000 KX+065.000 Q3 QZ-000.200 QX-000.200 R000.200 Ap052.000 Kr+003.000 DB000.000 SL010.885
+;     T03 TC1: KZ+043.000 KX+105.000 Q3 QZ-000.200 QX-000.200 R000.200 Ap000.000 Kr+000.000 DB002.500 SL010.000
+;     T03 TC2: KZ+040.500 KX+105.000 Q4 QZ+000.200 QX-000.200 R000.200 Ap000.000 Kr+000.000 DB002.500 SL010.000
+;     T04 TC1: KZ+048.001 KX+095.000 Q8 QZ+000.000 QX-000.216 R000.216 Ap000.000 Kr+000.000 DB000.000 SL000.000
+;     T04 TC2: KZ+047.001 KX+095.000 Q8 QZ+000.001 QX-000.213 R000.000 Ap000.000 Kr+000.000 DB000.000 SL000.000
+;     T06 TC1: KZ+109.100 KX-007.000 Q2 QZ-000.400 QX+000.400 R000.400 Ap009.851 Kr+000.000 DB000.000 SL006.000 Dmin012.000
+;     T09 TC1: KZ+189.100 KX-013.000 Q2 QZ-000.200 QX+000.200 R000.200 Ap037.348 Kr+017.590 DB000.000 SL010.396 Dmin023.000
+;     T12 TC1: KZ+164.000 KX+000.000 Q7 QZ+000.000 QX+000.000 R015.000 Ap000.000 Kr+000.000 DB030.000 SL060.000 NZ02
+;
+; Nullpunktregister
+;   Nullpunkt G54: Z256 X0 NT13
+;   Rechte Fläche des Werkstückes: Z257
+;
+; Einrichtblatt-Ende
+N10 G54
+N15 G96 T01 S200 F0.5 M4
+N20 G92 S1500
+N25 G0 X82 Z0  ;;-------------------------plandrehen
+N30 G1 X-1.6
+N35 G0 X82 Z1  ;;-------------------------geplant
+N40 G81 D1 H3 AK0.5  ;;-------------------schruppen der aussenkontur mit 0,5 aufmass
+N45 G1 X70 Z0
+N50 G1 X78 RN0.5
+N55 G1 Z-35
+N60 G1 X82
+N65 G80  ;;----------------------------aussenkontur geschruppt
+N70 G14
+N75 G96 T02 S200 F0.1 M4  ;;-----------schlichten der aussenkontur
+N80 G0 X70 Z1
+N85 G42  ;;----------------------------werkzeugkorektur rechtsvon der kontur
+N90 G23 N45 N60  ;;----------------satzwiederholung
+N95 G40  ;;----------------------------werkzeugkorektur abwählen
+N100 G14
+N105 G96 T12 S200 F0.3 M3  ;;----------aufbohren Ø30
+N110 G0 X0 Z1
+N115 G84 ZA-46  ;;---------------------bohren mit wendeplattenbohrer
+N120 G14
+N125 G96 T06 S200 F0.5 M4
+N130 G0 X28 Z1
+N135 G81 D2 H3 AK0.5  ;;-------------------------schruppen der innenkontur mit 0,5 aufmass
+N140 G1 X74 Z0
+N145 G1 X69.95 RN-2
+N150 G1 Z-6.5
+N155 G1 Z-10.025 AS236
+N160 G1 X55.015 RN0.5
+N165 G1 Z-22.5
+N170 G1 X45.025 Z-30 RN6
+N175 G1 Z-42.9 RN3
+N180 G1 X28
+N185 G80  ;;-------------------------------------innenkontur geschruppt
+N190 G14
+N195 G96 T09 S200 F0.1 M4  ;;--------------------schlichten der innenkontur
+N200 G0 X74 Z1 
+N205 G41
+N210 G23 N140 N180
+N215 G40
+N220 G14 H2
+N225 G30 Q1 DE20  ;;-----------------------------umspannen
+N230 G59 ZA-5  ;;--------------------------------nullpunktverschiebung 1.einspanntiefen - 2. einspanntiefe
+N235 G96 T01 S200 F0.5 M4
+N240 G0 X82 Z0.5
+N245 G1 X-1.6
+N250 G0 X82 Z1
+N255 G81 D3 H3 AK0.5  ;;-------------------------schruppen der aussenkontur gewindeseite mit 0,5 aufmass
+N260 G1 X-1.6 Z0
+N265 G1 X40 RN-2
+N270 G85 ZA-20.025 XA40 H1 I0.92 K3.325  ;;------gewindefreistich i=tiefe k=länge
+N275 G1 X47.9 Z-20.025 RN0.5
+N280 G1 X55 AS169
+N285 G1 Z-39.975
+N290 G1 X64.955
+N295 G1 Z-75 RN1
+N300 G1 X78 Z-79.3 RN2
+N305 G1 Z-85
+N310 G1 X82
+N315 G80  ;;------------------------------------aussen geschruppt
+N320 G14
+N325 G96 T02 S200 F0.1 M4
+N330 G0 X0 Z1
+N335 G42
+N340 G23 N260 N310
+N345 G40
+N350 G14
+N355 G96 T03 S200 F0.3 M4
+N360 G0 X70 Z-50
+N365 G86 ZA-65.9 XA59.3 ET64.955 EB-5 AS1 AE5 RO1 EP2
+N370 G86 ZA-63.4 XA59.3 ET64.955 EB4 AS5 AE2 RO-0.5 EP2
+N375 G86 ZA-56.0 XA59.3 ET64.955 EB5 AS5 AE1 RO1 EP2
+N380 G86 ZA-48.4 XA59.3 ET64.955 EB4 AS5 AE2 RO-0.5 EP2
+N385 G14
+N390 G96 T04 S200 F0.3 M3
+N395 G0 X42 Z5
+N400 G31 ZA-18 XA40 F1.5 D0.92 ZS0 XS40
+N405 

@@ -1,0 +1,138 @@
+; Einrichtblatt
+;   Maschine: "PAL-TC-Reitstock"
+;   Steuerung: "PAL2007-Turn"
+;
+; Allgemeine Informationen
+;   Programmierer: "Sebastian Weigl"
+;   Erstellungszeit: "22.11.2012 13:09"
+;
+; Werkstück
+;   Zylinder: L156 DA125
+;   Werkstoff: "P\Unlegierter Stahl\C45"
+;
+; Werkstück-Einspannung
+;   Spannmittel: "DIN55028 A8\KraftspannF\KSF200-3AsB"
+;   Spannmittelaufsatz: "AsB40V1.5x60\AufsatzB hart\HB3-B40xL49_36_24_12xH75_47_33_19"
+;   Spannungsart: Außenspannung innenstufige Backen
+;   Einspanntiefe: ET20
+;
+; Reitstock
+;   Reitstockspitze: "MK4\Reitstockspitze\KSMK4-60-30-25_44"
+;   Reitstockposition: ZR1100 M10
+;
+; Werkzeugsystem
+;   Werkzeugsatz: leer
+;   Werkzeugliste
+;     T01: "VDI30A\Linker EckDm\DCMT 11T308_SDJCL 2020 H 11_B1-30 2022"
+;     T02: "VDI30A\Linker EckDm\VBMW 160404_SVJBL 2020 H 16_B1-30 2022" 004000
+;     T07: "VDI30A\WendeplattenBo\WPB 30x90(179) L_E1-30 32x75" FFFFFF
+;     T09: "VDI30A\Bohrstange nm\DCMT 070204_A12K - SDUCL 07_E2-30 12x60" FF8080
+;     T11: "VDI30A\GewindeM linker H\M60E-2.00-16R_E16-2020-KR_B7-30 2022"
+;     T12: "VDI30A\Bohrstange nm\VBMT 110302_A16M - SVQBL 11_E2-30 16x60" 80FF80
+;     T13: "VDI30A\InnengewindeM nm\M60I-1.50-16R_A16-1616-MR_E2-30 16x60"
+;   Aktives Werkzeug: T01
+;
+;   Werkzeugkorrekturwertliste
+;     T01 TC1: KZ+047.000 KX+067.000 Q3 QZ-000.800 QX-000.800 R000.800 Ap032.000 Kr+003.000 DB000.000 SL010.785
+;     T02 TC1: KZ+047.000 KX+075.000 Q3 QZ-000.400 QX-000.400 R000.400 Ap052.000 Kr+003.000 DB000.000 SL016.178
+;     T07 TC1: KZ+194.000 KX+000.000 Q7 QZ+000.000 QX+000.000 R015.000 Ap000.000 Kr+000.000 DB030.000 SL090.000 NZ02
+;     T09 TC1: KZ+134.100 KX-009.000 Q2 QZ-000.400 QX+000.400 R000.400 Ap031.607 Kr+003.046 DB000.000 SL007.340 Dmin015.000
+;     T11 TC1: KZ+048.301 KX+095.000 Q8 QZ+000.000 QX-000.289 R000.289 Ap000.000 Kr+000.000 DB000.000 SL000.000
+;     T11 TC2: KZ+047.002 KX+095.000 Q8 QZ+000.002 QX-000.284 R000.000 Ap000.000 Kr+000.000 DB000.000 SL000.000
+;     T12 TC1: KZ+159.100 KX-011.000 Q2 QZ-000.200 QX+000.200 R000.200 Ap037.293 Kr+017.623 DB000.000 SL010.396 Dmin019.000
+;     T13 TC1: KZ+159.100 KX-011.300 Q6 QZ+000.000 QX+000.216 R000.216 Ap000.000 Kr+000.000 DB000.000 SL000.000 Dmin019.300
+;     T13 TC2: KZ+158.101 KX-011.300 Q6 QZ+000.001 QX+000.214 R000.000 Ap000.000 Kr+000.000 DB000.000 SL000.000 Dmin019.300
+;
+; Nullpunktregister
+;   Nullpunkt G54: Z296 X0 NT13
+;   Rechte Fläche des Werkstückes: Z298
+;
+; Einrichtblatt-Ende
+N10 G54
+N15 G96 T01 S200 F0.5 M4
+N20 G92 S3000
+N25 G0 X127 Z0  ;;-------------------------stirnfläche planen
+N30 G1 X-1.8
+N35 G0 X127 Z2
+N40 G81 D3 H3 AK0.5  ;;--------------------aussenkontur links mit aufmass
+N45 G0 X100 Z2
+N50 G1 X120 Z0 RN3
+N55 G1 Z-95
+N60 G80
+N65 G14 H1
+N70 G96 T02 S200 F0.1 M4
+N75 G42
+N80 G23 N45 N55 ;;------------------------schlichten aussenkontur links
+N85 G40
+N90 G14
+N95 G96 T07 S200 F0.2 M4
+N100 G0 X0 Z2
+N105 G84 ZA-85 D10 V1  ;;------------------durchgangsbohrung Ø30
+N110 G14
+N115 G96 T09 S200 F0.5 M4
+N120 G0 X0 Z2
+N125 G1 X25
+N130 G81 D2 H3 AK0.5  ;;-------------------innenkontur schruppen
+N135 G1 X95 Z2
+N140 G1 X100.732 Z0
+N145 G1 X100.027 Z-2
+N150 G85 ZA-10 XA100.027 H2  ;;------------freistich DIN 509
+N155 G1 X48.199 RN10
+N160 G1 Z-35 X30
+N165 G80
+N170 G14 H2
+N175 G96 T12 S200 F0.1 M4
+N180 G41
+N185 G23 N135 N160 ;;-------------------------innenkontur schlichten
+N190 G40
+N195 G14 H2
+N200 G30 Q1 DE20
+N205 G96 T01 S200 F0.5 M4
+N210 G0 X127 Z0
+N215 G1 X-1.6
+N220 G0 X127 Z2
+N225 G81 D3 H3 AK0.2  ;;-----------------------schruppen aussenkontur rechte seite
+N230 G0 X85 Z2
+N235 G1 X90 Z0 RN-2
+N240 G85 ZA-30.1 XA90 H1 I1.08 K3.78  ;;-------freistich DIN 76
+N245 G1 X95.696 Z-30.1
+N250 G1 X99.982 Z-38.1
+N255 G1 Z-54.641
+N260 G1 Z-90 AS210
+N265 G2 X93.812 Z-120 R20
+N270 G1 X120 Z-120 RN-1
+N275 G1 Z-125
+N280 G80
+N285 G14 H1
+N290 G96 T02 S200 F0.1 M4
+N295 G42
+N300 G23 N230 N275 ;;------------------------schlichten aussenkontur rechte seite
+N305 G40
+N310 G14
+N315 G96 T11 S200 F0.2 M3
+N320 G0 X95 Z2
+N325 G1 Z0
+N330 G31 ZA-27.6 XA90 F2 D1.23  ;;---------gewinde schneiden
+N335 G14 H2
+N340 G96 T07 S200 F0.2 M4
+N345 G0 X0 Z2
+N350 G84 ZA-85 D10 V1  ;;------------------durchgangsbohrung Ø30
+N355 G14
+N360 G96 T09 S200 F0.5 M4
+N365 G0 X0 Z2
+N370 G1 X25
+N375 G81 D2 H3 AK0.5  ;;------------------------innenkontur schruppen
+N380 G1 X70.2 Z2
+N385 G1 X59.482 AS195 RN5
+N390 G1 X53.38 Z-20.025 RN-1.5
+N395 G85 ZA-40.12 XA53.38 H1 I0.81 K2.835  ;;--freistich DIN 76
+N400 G1 X38.4 Z-40.12
+N405 G1 Z-55.675 X30
+N410 G80
+N415 G14 H2
+N420 G96 T12 S200 F0.1 M4
+N425 G41
+N430 G23 N380 N405  ;;--------------------------innenkontur schlichten
+N435 G40 
+N440 G14 H2
+N445 M30
