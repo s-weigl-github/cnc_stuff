@@ -1,0 +1,23 @@
+0  BEGIN PGM SCHLUESSELLOCH MM 
+1  BLK FORM 0.1 Z X-50 Y+0 Z-20
+2  BLK FORM 0.2  X+50  Y+150  Z+0
+3  TOOL CALL "SCHFR_DM18_SN4" Z S4951.487 F1980.595
+4  ;;----vorposition----;;
+5  L  Z+100 FMAX M13
+6  L  Z+2
+7  L  X+0  Y+20
+8  L  Z-5 F AUTO
+9  ;;----start der kontur----;;
+10 APPR LT  X+0  Y+10 RR F AUTO
+11 L  X-40
+12 RND R10
+13 L  X-15  Y+70
+14 CR  X+15  Y+70 R-35 DR-
+15 L  X+40  Y+10
+16 RND R10
+17 L  X+0
+18 ;;----ende der kontur----;;
+19 L  Z+2
+20 L  Z+100 FMAX
+21 M30
+22 END PGM SCHLUESSELLOCH MM 

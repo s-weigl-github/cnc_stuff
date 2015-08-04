@@ -1,0 +1,20 @@
+0  BEGIN PGM KREISBOGEN MM 
+1  BLK FORM 0.1 Z X+0 Y+0 Z-20
+2  BLK FORM 0.2  X+100  Y+100  Z+0
+3  TOOL CALL "SCHFR_DM32_SN4" Z S2785.212 F2450.986
+4  ;;----vorposition----;;
+5  L  Z+100 FMAX
+6  L  Z+2 FMAX
+7  L  X-40  Y+50  Z-5 F AUTO M13
+8  ;;----start der kontur----;;
+9  APPR LT  X+0  Y+80 RR F AUTO
+10 L  X+23.542
+11 CC  X+50  Y+50
+12 C  X+23.542  Y+20 DR-
+13 L  X+0
+14 DEP LCT  X-40  Y+50 R16
+15 ;;----ende der kontur----;;
+16 L  Z+2 R0 FMAX
+17 L  Z+100 FMAX
+18 M30
+19 END PGM KREISBOGEN MM 

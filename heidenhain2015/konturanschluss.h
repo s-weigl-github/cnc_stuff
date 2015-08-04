@@ -1,0 +1,20 @@
+0  BEGIN PGM KONTURANSCHLUSS MM 
+1  BLK FORM 0.1 Z X+0 Y+0 Z-20
+2  BLK FORM 0.2  X+100  Y+100  Z+0
+3  TOOL CALL "SCHFR_DM32_SN4" Z S2785.212 F2450.986
+4  ;;----vorposition----;;
+5  L  Z+100 FMAX
+6  L  Z+2
+7  L  X+50  Y-40
+8  L  Z-5 F AUTO M13
+9  ;;----start der kontur----;;
+10 APPR LT  X+20  Y+0 RR F AUTO
+11 L  Y+30
+12 CT  X+70  Y+60
+13 L  X+100
+14 L  X+140
+15 ;;----ende der kontur----;;
+16 L  Z+2 FMAX
+17 L  Z+100
+18 M30
+19 END PGM KONTURANSCHLUSS MM 

@@ -1,0 +1,24 @@
+0  BEGIN PGM SECHSECK MM 
+1  BLK FORM 0.1 Z X-50 Y-50 Z-20
+2  BLK FORM 0.2  X+50  Y+50  Z+0
+3  TOOL CALL "SCHFR_DM32_SN4" Z S2785.211 F2005.352
+4  ;;----vorposition----;;
+5  L  Z+100 FMAX
+6  L  Z+2
+7  L  X-80  Y-30 M13
+8  L  Z-5 F AUTO
+9  ;;----start der kontur----;;
+10 APPR LT  X-40  Y+0 RL
+11 CC  X+0  Y+0
+12 LP IPA-60
+13 LP IPA-60
+14 LP IPA-60
+15 LP IPA-60
+16 LP IPA-60
+17 LP IPA-60
+18 DEP LCT  X-80  Y-30 R10
+19 ;;----ende der kontur----;;
+20 L  Z+2
+21 L  Z+100 FMAX
+22 M30
+23 END PGM SECHSECK MM 

@@ -1,0 +1,28 @@
+0  BEGIN PGM BEISPIEL2 MM 
+1  BLK FORM 0.1 Z X+0 Y+0 Z-15
+2  BLK FORM 0.2  X+100  Y+80  Z+0
+3  TOOL CALL "SCHFR_DM28_SN4" S3183.099 F1782.535
+4  ;;----vorposition----;;
+5  L  Z+100 FMAX
+6  L  Z+2
+7  L  X-30  Y-30 M13
+8  L  Z-3 F AUTO
+9  ;;----start der kontur----;;
+10 APPR LT  X+5  Y+5 RL
+11 L  Y+75
+12 CHF 10
+13 L  X+95
+14 CHF 5
+15 L  Y+25
+16 CHF 15
+17 L  X+50.36  Y+49.8
+18 RND R15
+19 L  X+25  Y+5
+20 RND R10
+21 L  X+5  Y+5
+22 DEP LCT  X-30  Y-30 R10
+23 ;;----ende der kontur----;;
+24 L  Z+2
+25 L  Z+100 FMAX
+26 M30
+27 END PGM BEISPIEL2 MM 

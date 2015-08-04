@@ -80,15 +80,15 @@ N31 CYCL DEF 7.0 NULLPUNKT
 N32 CYCL DEF 7.1 IX+150
 N33 CYCL DEF 7.2 IY+70
 N34 CYCL DEF 7.3 IZ+100
-N35 ;M0  ;;---------------------ks drehen
+N35 ;M0  ;;---------------------ks drehen--;;
 N36 CYCL DEF 10.0 DREHUNG
 N37 CYCL DEF 10.1 ROT-90
-N38 ;M0  ;;--------------------klappen
+N38 ;M0  ;;--------------------klappen--;;
 N39 PLANE SPATIAL SPA-67.788 SPB+0 SPC+0 MOVE ABST+150 F220
 N40 L X60 Y-26 Z0 FMAX
 N41 L X-210
 N42 L Z50
-N43 ;M0  ;;-------------------reset
+N43 ;M0  ;;-------------------reset--;;
 N44 PLANE RESET MOVE ABST+150 F220
 N45 CYCL DEF 7.0 NULLPUNKT
 N46 CYCL DEF 7.1 X+0
@@ -96,7 +96,7 @@ N47 CYCL DEF 7.2 Y+0
 N48 CYCL DEF 7.3 Z+0
 N49 CYCL DEF 10.0 DREHUNG
 N50 CYCL DEF 10.1 ROT+0
-N51 ;M0  ;;--------------------drehen für bogenkontur
+N51 ;M0  ;;--------------------drehen für bogenkontur--;;
 N52 L Z100
 N53 PLANE SPATIAL SPA-90 SPB+0 SPC+0 MOVE ABST+150 F220
 N54 CYCL DEF 7.0 NULLPUNKT
@@ -187,7 +187,7 @@ N138 CYCL DEF 4.5 Y+21
 N139 CYCL DEF 4.6 F220 DR- RADIUS 5
 N140 CYCL CALL
 N141 L Z100 FMAX
-N142 ;M0 ;;---------------------------------------klappen und drehen
+N142 ;M0 ;;---------------------------------------klappen und drehen--;;
 N143 PLANE SPATIAL SPA+90 SPB+0 SPC+0 MOVE ABST+150 F220
 N144 CYCL DEF 10.0 DREHUNG
 N145 CYCL DEF 10.1 ROT+180

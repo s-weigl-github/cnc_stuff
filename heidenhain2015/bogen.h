@@ -1,0 +1,21 @@
+0  BEGIN PGM BOGEN MM 
+1  BLK FORM 0.1 Z X+0 Y+0 Z-20
+2  BLK FORM 0.2  X+100  Y+100  Z+0
+3  TOOL CALL "SCHFR_DM32_SN4" Z S2785.211 F2005.352
+4  ;;----vorposition----;;
+5  L  Z+100 FMAX
+6  L  Z+2
+7  L  X-40  Y+20 M13
+8  L  Z-5 F AUTO
+9  ;;----start der kontur----;;
+10 APPR LT  X+0  Y+30 RL
+11 L  X+40  Y+60
+12 CC  X+20  Y+20
+13 CTP  PR+76.158  PA+23.199
+14 L  Y+0
+15 DEP LCT  X+110  Y-40 R10
+16 ;;----ende der kontur----;;
+17 L  Z+2
+18 L  Z+100 FMAX
+19 M30
+20 END PGM BOGEN MM 

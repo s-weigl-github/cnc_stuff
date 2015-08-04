@@ -1,0 +1,65 @@
+0  BEGIN PGM PLATTE_23072015 MM 
+1  BLK FORM 0.1 Z X+0 Y+0 Z-30
+2  BLK FORM 0.2  X+100  Y+100  Z+0
+3  CYCL DEF 247 BEZUGSPUNKT SETZEN ~
+    Q339=+1    ;BEZUGSPUNKT-NUMMER
+4  TOOL CALL "SPIBO_VHM_DM5" Z S12732.395 F2546.479
+5  L  Z+100 FMAX
+6     Z+2
+7  L  X+0  Y+0 FMAX M13
+8  * - def bohrung
+9  LBL "bohrung"
+10 CYCL DEF 200 BOHREN ~
+    Q200=+2    ;SICHERHEITS-ABST. ~
+    Q201=-20   ;TIEFE ~
+    Q206= AUTO ;VORSCHUB TIEFENZ. ~
+    Q202=+20   ;ZUSTELL-TIEFE ~
+    Q210=+0    ;VERWEILZEIT OBEN ~
+    Q203=+0    ;KOOR. OBERFLAECHE ~
+    Q204=+10   ;2. SICHERHEITS-ABST. ~
+    Q211=+0.02 ;VERWEILZEIT UNTEN ~
+    Q395=+1    ;BEZUG TIEFE
+11 LBL 0
+12 * - gewinde M6 P1
+13 LBL "gewinde"
+14 CYCL DEF 206 GEWINDEBOHREN ~
+    Q200=+2    ;SICHERHEITS-ABST. ~
+    Q201=-15   ;GEWINDETIEFE ~
+    Q206= AUTO ;VORSCHUB TIEFENZ. ~
+    Q211=+0    ;VERWEILZEIT UNTEN ~
+    Q203=+0    ;KOOR. OBERFLAECHE ~
+    Q204=+10   ;2. SICHERHEITS-ABST.
+15 LBL 0
+16 * - bohr positionen
+17 LBL "positionen"
+18 L  X+10  Y+20 FMAX M99
+19 L  X+40  Y+30 FMAX M99
+20 L  X+30  Y+40 FMAX M99
+21 L  X+20  Y+80 FMAX M99
+22 L  X+10  Y+90 FMAX M99
+23 L  X+50  Y+80 FMAX M99
+24 L  X+70  Y+90 FMAX M99
+25 L  X+50  Y+50 FMAX M99
+26 L  X+90  Y+40 FMAX M99
+27 L  X+90  Y+10 FMAX M99
+28 LBL 0
+29 * - verknuepfung der unterprogramme
+30 LBL "zusammen_bohr"
+31 CALL LBL "bohrung"
+32 CALL LBL "positionen"
+33 LBL 0
+34 * - fertigung der bohrungen
+35 CALL LBL "zusammen_bohr"
+36 L  Z+100 FMAX
+37 TOOL CALL "GEWBO_M6_1" Z S4774.648 F4774.648
+38 * - verknuepfung der unterprogramme
+39 LBL "zusammen_gewinde"
+40 CALL LBL "gewinde"
+41 CALL LBL "positionen"
+42 LBL 0
+43 L  Z+100 FMAX
+44 * - fertigung gewinde M6
+45 CALL LBL "zusammen_gewinde"
+46 L  Z+100 FMAX
+47 M30
+48 END PGM PLATTE_23072015 MM 
