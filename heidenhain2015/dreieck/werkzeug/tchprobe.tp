@@ -1,0 +1,5 @@
+BEGIN TCHPROBE.TP MM VERSION: 'Update:70.11'
+NO  TYPE    CAL_OF1      CAL_OF2      CAL_ANG   F     FMAX    DIST         SET_UP       F_PREPOS       TRACK   
+1   TS120   +0           +0           0         500   +2000   10           2            1                      
+2   TS120   +0           +0           0         500   +2000   10           7            1                      
+[END]

@@ -1,0 +1,29 @@
+---------anfang protokoll----------
+		
+werkzeug Ø = 10.000
+programm: TNC:\nc_prog\weigl\dreieck\dreieck_q_fn_03082015.h
+
+***********ergebnisse************
+
+		Länge in X							= 200.000
+		Länge in Y							= 200.000
+		
+		Höhe des Dreiecks				= 180.000
+		Grundlänge/2						= 90.000
+		Grundlänge/Höhe					= 0.500
+		Tangens aus Gl/H				= 0.009
+		Wurzel aus Gl²+H²				= 201.246
+		
+		Werkstücklänge/2				= 100.000
+		WKS_Höhe-DreiecksHöhe/2	= 10.000
+		
+		Aufmass für Rohteil			= 20.000
+*********************************
+
+DATUM: 10.08.2015
+UHRZEIT: 18:23:43
+		
+-------------ende protokoll--------
+===================================
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+===================================
